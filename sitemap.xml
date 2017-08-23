@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2017-08-23T10:56:15-00:00</lastmod>
+<lastmod>2017-08-23T16:58:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2017-08-23T10:56:15-00:00</lastmod>
+<lastmod>2017-08-23T16:58:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2017-08-23T10:56:15-00:00</lastmod>
+<lastmod>2017-08-23T16:58:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2017-08-23T10:56:15-00:00</lastmod>
+<lastmod>2017-08-23T16:58:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -36,6 +36,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2017-08-22T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>/linuxfen-ping-terminator-kuo-zhan-yuan-sheng-terminal.html</loc>
+<lastmod>2017-08-23T14:00:51+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -50,6 +57,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2012-01-01T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
+</url>
+
+<url>
+<loc>/category/linux.html</loc>
+<lastmod>2017-08-23T14:00:51+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
@@ -74,6 +88,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/world.html</loc>
+<lastmod>2012-01-01T00:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/python.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -88,8 +109,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/world.html</loc>
-<lastmod>2012-01-01T00:00:00+08:06</lastmod>
+<loc>/tag/terminal.html</loc>
+<lastmod>2017-08-23T14:00:51+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/linux.html</loc>
+<lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -117,7 +145,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/pookz.html</loc>
-<lastmod>2017-08-22T10:22:00+08:06</lastmod>
+<lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
