@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content=" Posts by author Pookz" />
+    <meta name="description" content="" />
     <meta name="author" content="Pookz" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
 
-    <title>Author:Pookz - Words Of Dreammis</title>
+    <title>Python 字典和列表陷阱 - Words Of Dreammis</title>
 
    
         <link rel="stylesheet"
@@ -83,13 +83,8 @@
     <div class="container" id="main-container">
       <div class="row">
         <div class="col-md-9" id="content">
-<ol class="breadcrumb">
-    <li><a href="/" title="Home" rel="home">
-		<i class="fa fa-home fa-fw fa-lg"></i> </a></li>
-    <li>Authors </li>
-    <li class="active">Pookz</li>
-</ol>
-    <article>
+<article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+  <header class="article-header">
 <abbr class="article-header-date">
   周二 22 八月 2017
 </abbr> <h1>
@@ -105,9 +100,9 @@
       Python</a>
     &nbsp;&nbsp;
   </p>
-</div> <!-- /.article-header-info -->
-      <div class="summary">
-		<p>Python 中有三个非常好用的数据结构,列表,元组和字典,
+</div> <!-- /.article-header-info -->  </header>
+  <div class="content-body" itemprop="text articleBody">
+	<p>Python 中有三个非常好用的数据结构,列表,元组和字典,
 元组是不可变的,列表可以保存任意类型的Python对象,并可以随意扩展没有大小限制,
 字典是一个key-value的键值映射的类型,可以存放任何Python对象,可以嵌套字典,
 值可以是字典元组或者字典</p>
@@ -122,49 +117,68 @@
 <span class="o">&gt;&gt;&gt;</span> <span class="n">info</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span>
 <span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold night&#39;</span><span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">info …</span></pre></div>
-		<p class="content-emphasis"><a href="/python-zi-dian-he-lie-biao-xian-jing.html">
-			Read more... <i class="fa fa-arrow-circle-right fa-fw fa-lg"></i> 
-		</a></p>
-      </div>    </article>
-    <hr />
-    <article>
-<abbr class="article-header-date">
-  周日 01 一月 2012
-</abbr> <h1>
-  <a href="/hello-world.html" rel="bookmark"
-     title="Permalink to &#34;Hello World!&#34;">
-    "Hello World!"
-  </a>
-</h1><div class="article-header-info">
-  <p>
-      Posted by <a href="/author/pookz.html">Pookz</a>
-    in 
-    <a href="/category/misc.html">
-      misc</a>
-    &nbsp;&nbsp;
-  </p>
-</div> <!-- /.article-header-info -->
-      <div class="summary">
-		<p>Welcome to Crotal, This is the first post, modify or remove it, and start your own blog!</p>
-<p>Write you post like this:</p>
-<div class="highlight"><pre><span></span>---
-title: &quot;Hello, World&quot;
-date: 2013-04-20 15:10
-categories: crotal
-slug: hello-world
----
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span>
+<span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold night&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span> <span class="o">=</span> <span class="n">names</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;cold night&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span>
+<span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen&#39;</span><span class="p">,</span> <span class="s1">&#39;cold night&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span>
+<span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen&#39;</span><span class="p">,</span> <span class="s1">&#39;cold night&#39;</span><span class="p">]</span>
+</pre></div>
 
-Welcome to Crotal, This is your first post, modify or remove it, and start your own blog …</pre></div>
-		<p class="content-emphasis"><a href="/hello-world.html">
-			Read more... <i class="fa fa-arrow-circle-right fa-fw fa-lg"></i> 
-		</a></p>
-      </div>    </article>
-    <hr />
 
-<nav class="index-pager">
+<p>大家看到如果将列表或者字典重新赋值给另外一个变量并没有达到预想的效果,
+我们更改一个的同时另外一个也在同时更改,如果我们想保留一个快照,很明显我们
+没有达到我们想要的效果,另外还有一种常见的使用,因为我们知道普通变量传递给
+函数,函数在内部更改是不会影响到外部变量的,那么列表和字典呢?
+我们来看如下代码,我们创建一个函数,是字典就添加一个键和值,是列表就在尾部添加一个元素</p>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">add_something</span><span class="p">(</span><span class="n">info</span><span class="p">):</span>
+<span class="o">...</span>     <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">info</span><span class="p">)</span> <span class="o">==</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="o">...</span>             <span class="n">info</span><span class="p">[</span><span class="s1">&#39;msg&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Hello,&#39;</span><span class="o">+</span> <span class="n">info</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+<span class="o">...</span>     <span class="k">elif</span> <span class="nb">type</span><span class="p">(</span><span class="n">info</span><span class="p">)</span> <span class="o">==</span> <span class="nb">list</span><span class="p">:</span>
+<span class="o">...</span>             <span class="n">info</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;add to the list&#39;</span><span class="p">)</span>
+<span class="o">...</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;blog&#39;</span><span class="p">:</span><span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">add_something</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span>
+<span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">:</span> <span class="s1">&#39;Hello,cold&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen.com&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">add_something</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span>
+<span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;add to the list&#39;</span><span class="p">]</span>
+</pre></div>
 
-</nav> <!-- /index-pager -->
+
+<p>如上代码明显不是我们想要的结果,如果这个列表/字典仅仅用在一个地方可能不会发生什么
+如果我们其他地方需要同样的列表进行处理,如果你不知道这个特性就会产生很难寻找的bug
+当上面并不是我们想要的我们该如何避免上面呢,我们可以对列表/字典做一个拷贝,而不是
+简单的引用</p>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen.com&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span> <span class="o">=</span> <span class="n">names</span><span class="p">[:]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;cold night&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span>
+<span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen.com&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names2</span>
+<span class="p">[</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="s1">&#39;night&#39;</span><span class="p">,</span> <span class="s1">&#39;linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;cold night&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;cold night&#39;</span><span class="p">,</span> <span class="s1">&#39;blog&#39;</span><span class="p">:</span><span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span> <span class="o">=</span> <span class="n">info</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;cold&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span>
+<span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold night&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span>
+<span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold&#39;</span><span class="p">}</span>
+</pre></div>
+
+
+<p>上面代码列表使用[:]可以创建一个列表的副本而不是引用
+字典的copy方法同样可以创建一个字典的副本而不是引用
+这样就可以避免之前所说的引用的情况</p>
+  </div>
+  
+
+</article>
         </div><!-- /content -->
 
         <div class="col-md-3 sidebar-nav" id="sidebar">

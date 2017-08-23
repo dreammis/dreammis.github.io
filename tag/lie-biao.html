@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A Page in One Man who is insane!!: About Me" />
+    <meta name="description" content=" Posts tagged with 列表" />
     <meta name="author" content="Pookz" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
 
-    <title>About Me - Words Of Dreammis</title>
+    <title>Tag:列表 - Words Of Dreammis</title>
 
    
         <link rel="stylesheet"
@@ -60,7 +60,7 @@
 
       <div class="collapse navbar-collapse" id="main-navbar-collapse">
         <ul class="nav navbar-nav">
-              <li class="active">
+              <li>
                 <a href="/pages/about-me.html">About Me</a>
               </li>
             <li class="divider"></li>
@@ -83,17 +83,55 @@
     <div class="container" id="main-container">
       <div class="row">
         <div class="col-md-9" id="content">
-<article itemscope="itemscope" 
-         itemtype="http://schema.org/WebPage">
-  <header>
-    <h1 itemprop="name headline">About Me</h1>
-  </header>
-  <div class="content-body" itemprop="text">
-    <h1>About me Pookz</h1>
-  </div>
+<ol class="breadcrumb">
+    <li><a href="/" title="Home" rel="home">
+		<i class="fa fa-home fa-fw fa-lg"></i> </a></li>
+    <li>Tags </li>
+    <li class="active">列表</li>
+</ol>
+    <article>
+<abbr class="article-header-date">
+  周二 22 八月 2017
+</abbr> <h1>
+  <a href="/python-zi-dian-he-lie-biao-xian-jing.html" rel="bookmark"
+     title="Permalink to Python 字典和列表陷阱">
+    Python 字典和列表陷阱
+  </a>
+</h1><div class="article-header-info">
+  <p>
+      Posted by <a href="/author/pookz.html">Pookz</a>
+    in 
+    <a href="/category/python.html">
+      Python</a>
+    &nbsp;&nbsp;
+  </p>
+</div> <!-- /.article-header-info -->
+      <div class="summary">
+		<p>Python 中有三个非常好用的数据结构,列表,元组和字典,
+元组是不可变的,列表可以保存任意类型的Python对象,并可以随意扩展没有大小限制,
+字典是一个key-value的键值映射的类型,可以存放任何Python对象,可以嵌套字典,
+值可以是字典元组或者字典</p>
+<p>这里说是Python 字典和列表的陷阱不如说是Python的一些特性,如果不了解这些特性
+就会引发一些难以寻找的bug</p>
+<p>下面我们来介绍这些特性</p>
+<p>Python中所有对列表和字典的使用仅仅是对原来对象的引用而不是创建一个新的对象
+如下面代码:</p>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">info</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;cold&#39;</span><span class="p">,</span> <span class="n">blog</span><span class="o">=</span><span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">)</span> <span class="c1"># 创建字典{&#39;name&#39;:&#39;cold&#39;, &#39;blog&#39;:&#39;www.linuxzen.com&#39;}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span> <span class="o">=</span> <span class="n">info</span>     <span class="c1"># 赋值给info2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;cold night&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info2</span>
+<span class="p">{</span><span class="s1">&#39;blog&#39;</span><span class="p">:</span> <span class="s1">&#39;www.linuxzen.com&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;cold night&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">info …</span></pre></div>
+		<p class="content-emphasis"><a href="/python-zi-dian-he-lie-biao-xian-jing.html">
+			Read more... <i class="fa fa-arrow-circle-right fa-fw fa-lg"></i> 
+		</a></p>
+      </div>    </article>
+    <hr />
 
+<nav class="index-pager">
 
-</article>
+</nav> <!-- /index-pager -->
         </div><!-- /content -->
 
         <div class="col-md-3 sidebar-nav" id="sidebar">
