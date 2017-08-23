@@ -4,147 +4,147 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2017-08-23T17:25:01-00:00</lastmod>
+<loc>http://blog.pookz.me/</loc>
+<lastmod>2017-08-23T17:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2017-08-23T17:25:01-00:00</lastmod>
+<loc>http://blog.pookz.me/archives.html</loc>
+<lastmod>2017-08-23T17:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2017-08-23T17:25:01-00:00</lastmod>
+<loc>http://blog.pookz.me/tags.html</loc>
+<lastmod>2017-08-23T17:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2017-08-23T17:25:01-00:00</lastmod>
+<loc>http://blog.pookz.me/categories.html</loc>
+<lastmod>2017-08-23T17:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pages/about-me.html</loc>
+<loc>http://blog.pookz.me/pages/about-me.html</loc>
 <lastmod>2017-08-22T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>/linuxfen-ping-terminator-kuo-zhan-yuan-sheng-terminal.html</loc>
+<loc>http://blog.pookz.me/linuxfen-ping-terminator-kuo-zhan-yuan-sheng-terminal.html</loc>
 <lastmod>2017-08-23T14:00:51+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/python-zi-dian-he-lie-biao-xian-jing.html</loc>
+<loc>http://blog.pookz.me/python-zi-dian-he-lie-biao-xian-jing.html</loc>
 <lastmod>2017-08-22T10:22:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/hello-world.html</loc>
+<loc>http://blog.pookz.me/hello-world.html</loc>
 <lastmod>2012-01-01T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/category/linux.html</loc>
+<loc>http://blog.pookz.me/category/linux.html</loc>
 <lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/misc.html</loc>
+<loc>http://blog.pookz.me/category/misc.html</loc>
 <lastmod>2012-01-01T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/python.html</loc>
+<loc>http://blog.pookz.me/category/python.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/lie-biao.html</loc>
+<loc>http://blog.pookz.me/tag/lie-biao.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/world.html</loc>
+<loc>http://blog.pookz.me/tag/world.html</loc>
 <lastmod>2012-01-01T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/python.html</loc>
+<loc>http://blog.pookz.me/tag/python.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/xian-jing.html</loc>
+<loc>http://blog.pookz.me/tag/xian-jing.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/terminal.html</loc>
+<loc>http://blog.pookz.me/tag/terminal.html</loc>
 <lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/linux.html</loc>
+<loc>http://blog.pookz.me/tag/linux.html</loc>
 <lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/yin-yong.html</loc>
+<loc>http://blog.pookz.me/tag/yin-yong.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/zi-dian.html</loc>
+<loc>http://blog.pookz.me/tag/zi-dian.html</loc>
 <lastmod>2017-08-22T10:22:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/hello.html</loc>
+<loc>http://blog.pookz.me/tag/hello.html</loc>
 <lastmod>2012-01-01T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/pookz.html</loc>
+<loc>http://blog.pookz.me/author/pookz.html</loc>
 <lastmod>2017-08-23T14:00:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
