@@ -1,0 +1,9 @@
+baseURL = 'https://nasdaddy.com/'
+languageCode = 'en-us'
+title = '老爸的数字花园'
+theme = 'LoveIt'
+[menu]
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
