@@ -10,17 +10,17 @@ draft: false
 
 😒你是否因为`不会代码`而羡慕别人可以搭建这么多好玩的应用？
 
-![展示](http://img-nasdaddy.liuxingoo.cn/img/202305222015365.gif)
+![展示](https://img-nasdaddy.liuxingoo.cn/img/202305222015365.gif)
 
 而他们所谓的`简单教程`则是：
 
-![代码教程](http://img-nasdaddy.liuxingoo.cn/img/202305221850159.gif)
+![代码教程](https://img-nasdaddy.liuxingoo.cn/img/202305221850159.gif)
 
 
 
 你是否因为别人的`教程太复杂`，而望而生畏
 
-![复杂教程](http://img-nasdaddy.liuxingoo.cn/img/202305221843307.gif)
+![复杂教程](https://img-nasdaddy.liuxingoo.cn/img/202305221843307.gif)
 
 你是否希望让`一切都简单一点`
 
@@ -36,7 +36,7 @@ draft: false
 
 ## 创建目录
 
-![1](http://img-nasdaddy.liuxingoo.cn/img/202305221854783.png)
+![1](https://img-nasdaddy.liuxingoo.cn/img/202305221854783.png)
 
 ## stack 创建
 
@@ -52,7 +52,7 @@ services:
       - 5230:5230
 ```
 
-![2](http://img-nasdaddy.liuxingoo.cn/img/202305221855734.png)
+![2](https://img-nasdaddy.liuxingoo.cn/img/202305221855734.png)
 
 💕**完成！**
 
@@ -88,19 +88,19 @@ Portainner 是一个轻量的docker 容器管理工具
 1. Docker （群晖`7.2版本`以下）
 2. Container Manager（7.2以上版本）
 
-![1](http://img-nasdaddy.liuxingoo.cn/img/202305221520122.png)
+![1](https://img-nasdaddy.liuxingoo.cn/img/202305221520122.png)
 
 ## 3. File Station
 
 File Station 打开docker 文件夹，创建portainer 文件夹
 
-![2](http://img-nasdaddy.liuxingoo.cn/img/202305221524888.png)
+![2](https://img-nasdaddy.liuxingoo.cn/img/202305221524888.png)
 
 ## 4. 计划任务
 
 群晖`控制面板`，找到`任务计划`，点击`计划中的任务`-> `用户定义的脚本`
 
-![3](http://img-nasdaddy.liuxingoo.cn/img/202305221525216.png)
+![3](https://img-nasdaddy.liuxingoo.cn/img/202305221525216.png)
 
 
 
@@ -122,11 +122,11 @@ portainer/portainer-ce
 
 
 
-![4](http://img-nasdaddy.liuxingoo.cn/img/202305221525969.png)
+![4](https://img-nasdaddy.liuxingoo.cn/img/202305221525969.png)
 
-![5](http://img-nasdaddy.liuxingoo.cn/img/202305221525125.png)
+![5](https://img-nasdaddy.liuxingoo.cn/img/202305221525125.png)
 
-![6](http://img-nasdaddy.liuxingoo.cn/img/202305221525244.png)
+![6](https://img-nasdaddy.liuxingoo.cn/img/202305221525244.png)
 
 
 
@@ -134,7 +134,7 @@ portainer/portainer-ce
 
 点击`运行`
 
-![7](http://img-nasdaddy.liuxingoo.cn/img/202305221526280.png)
+![7](https://img-nasdaddy.liuxingoo.cn/img/202305221526280.png)
 
 
 
@@ -146,11 +146,11 @@ portainer/portainer-ce
 
 
 
-![8](http://img-nasdaddy.liuxingoo.cn/img/202305221526350.png)
+![8](https://img-nasdaddy.liuxingoo.cn/img/202305221526350.png)
 
 也可以在`docker 套件`中确认portainer是否拉取成功
 
-![9](http://img-nasdaddy.liuxingoo.cn/img/202305221526399.png)
+![9](https://img-nasdaddy.liuxingoo.cn/img/202305221526399.png)
 
 
 
@@ -158,7 +158,7 @@ portainer/portainer-ce
 
 设置密码
 
-![10](http://img-nasdaddy.liuxingoo.cn/img/202305221526832.png)
+![10](https://img-nasdaddy.liuxingoo.cn/img/202305221526832.png)
 
 
 
@@ -167,11 +167,11 @@ portainer/portainer-ce
 1. 初始化环境变量
 2. 设置环境变量中的本地ip，方便直接点击（本地ip为你局域网群晖所在ip）
 
-![11](http://img-nasdaddy.liuxingoo.cn/img/202305221527432.png)
+![11](https://img-nasdaddy.liuxingoo.cn/img/202305221527432.png)
 
-![12](http://img-nasdaddy.liuxingoo.cn/img/202305221527890.png)
+![12](https://img-nasdaddy.liuxingoo.cn/img/202305221527890.png)
 
-![13](http://img-nasdaddy.liuxingoo.cn/img/202305221527142.png)
+![13](https://img-nasdaddy.liuxingoo.cn/img/202305221527142.png)
 
 ## 10 屏蔽广告（非必须）
 
@@ -179,13 +179,13 @@ portainer 有讨厌的Business 升级提醒怎么办？
 
 用各路浏览器屏蔽助手来屏蔽
 
-![14](http://img-nasdaddy.liuxingoo.cn/img/202305221528554.png)
+![14](https://img-nasdaddy.liuxingoo.cn/img/202305221528554.png)
 
-![image-20230522200848514](http://img-nasdaddy.liuxingoo.cn/img/202305222008586.png)
+![image-20230522200848514](https://img-nasdaddy.liuxingoo.cn/img/202305222008586.png)
 
-![15](http://img-nasdaddy.liuxingoo.cn/img/202305221528655.png)
+![15](https://img-nasdaddy.liuxingoo.cn/img/202305221528655.png)
 
-![16](http://img-nasdaddy.liuxingoo.cn/img/202305221528751.png)
+![16](https://img-nasdaddy.liuxingoo.cn/img/202305221528751.png)
 
 
 
