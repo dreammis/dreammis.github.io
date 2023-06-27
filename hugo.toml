@@ -134,7 +134,7 @@ googleAnalytics = "G-BLT50ZZK4B"
       subtitle = "爱折腾，爱收藏，爱思考，终身学习的中年老爹"
       social = true
     [params.home.posts]
-      paginate = 2
+      paginate = 10
   [params.social]
     GitHub = "dreammis"
     Twitter = "dreammis"
