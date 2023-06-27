@@ -1,4 +1,4 @@
-baseURL = 'https://nasdaddy.com/'
+baseURL = 'https://www.nasdaddy.com/'
 languageCode = 'zh-CN'
 hasCJKLanguage = true
 title = '老爸的数字花园'
@@ -19,7 +19,7 @@ googleAnalytics = "G-BLT50ZZK4B"
 [author]
   name = "爱折腾的老爹"
   email = "hysn2001@gmail.com"
-  link = "https://nasdaddy.com"
+  link = "https://www.nasdaddy.com"
 
 
 [menu]
