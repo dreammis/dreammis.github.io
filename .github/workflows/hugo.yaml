@@ -60,6 +60,11 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      - name: Upload index to aligolia
+        run: |
+          npm install
+          npm run algolia\
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
