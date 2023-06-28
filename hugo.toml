@@ -195,10 +195,10 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
   [params.analytics]
     enable = false
     # Google Analytics
-  [params.analytics.google]
-    id = "G-BLT50ZZK4B"
-    # whether to anonymize IP
-    anonymizeIP = true
+    [params.analytics.google]
+      id = "G-BLT50ZZK4B"
+      # whether to anonymize IP
+      anonymizeIP = true
 
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
