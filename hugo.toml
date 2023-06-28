@@ -193,7 +193,7 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
     thumbnailUrl = "/images/logo.jpg"  # 缩略图 URL
 
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = "G-BLT50ZZK4B"
