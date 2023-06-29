@@ -1,26 +1,11 @@
 baseURL = 'https://www.nasdaddy.com/'
 languageCode = 'zh-CN'
+# [en, zh-cn, fr, pl, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 title = '老爸的数字花园'
-theme = 'LoveIt'
+theme = 'DoIt'
 timeZone = "Asia/Shanghai"
-
-disableHugoGeneratorInject = true
-# 是否使用 robots.txt
-enableRobotsTXT = true
-enableGitInfo = false
-enableEmoji = true
-paginate = 14
-copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云。不再忍受霸王条款，完全自托管。群晖、威联通QNAP等多种平台，家庭照片相册、视频、电影服务器。了解nas设置、nas软件，nas使用教程，self-host, Synology DSM"
-# 谷歌分析代号 [UA-XXXXXXXX-X]
-# googleAnalytics = "G-BLT50ZZK4B"
-
-# 作者配置
-[author]
-  name = "爱折腾的老爹"
-  email = "hysn2001@gmail.com"
-  link = "https://www.nasdaddy.com"
-
 
 [menu]
   [[menu.main]]
@@ -45,13 +30,13 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
     weight = 8
   [[menu.main]]
     identifier = "rss"
-    pre = "<i class='icon-rss'></i>"
+    pre = "<i class='fas fa-rss-square'></i>"
     url = "/index.xml"
     title = "RSS"
     weight = 18
   [[menu.main]]
     identifier = "github"
-    pre = "<i class='icon-github'></i>"
+    pre = "<i class='fab fa-github fa-fw'></i>"
     url = "https://github.com/dreammis"
     title = "GitHub"
     weight = 20
@@ -68,16 +53,26 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
   webmanifest = "/site.webmanifest"
   swjs = "/sw.js"
 
+  # 应用图标配置 在添加到手机主屏幕
+  [params.app]
+    title = "NasDaddy"
+    noFavicon = true
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
 
   [params.header]
     desktopMode = "fixed"   # 桌面端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"  # 移动端导航栏模式 ("fixed", "normal", "auto")
+    # themeChangeMode = "select"
     # 页面头部导航栏标题配置
     [params.header.title]
-      logo = "" # LOGO 的 URL
+      logo = "/images/rainbow-4-svgrepo-com.svg" # LOGO 的 URL
       name = "NasDaddy" # 标题名称
       pre = "" # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标  #"<i class='far fa-kiss-wink-heart fa-fw'></i>"  
       post = ""  # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+      typeit = true
 
   [params.footer]
     enable = true
@@ -102,15 +97,129 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
     paginate = 20  # list 页面每页显示文章数量
     dateFormat = "01/02"  # 日期格式 (月和日)
     rss = 20  # RSS 文章数目
+
+  [params.home]
+    rss = 20  # RSS 文章数目
+    [params.home.profile]
+      avatarURL = "/images/logo.jpg"
+      altLogoURL = ""
+      title = "老爸的数字花园"
+      subtitle = "爱折腾，爱收藏，爱思考，终身学习的中年老爹"
+      social = true
+      typeit = true
+    [params.home.posts]
+      paginate = 10
   
-  # 应用图标配置 在添加到手机主屏幕
-  [params.app]
-    title = "NasDaddy"
-    noFavicon = false
-    svgFavicon = ""
-    themeColor = "#ffffff"
-    iconColor = "#5bbad5"
-    tileColor = "#da532c"
+  [params.social]
+    GitHub = "dreammis"
+    Twitter = "dreammis"
+    Telegram = "nasdaddygroup"
+    Discord= "pookz3250"
+    Email = "dreammis@outlook.com"
+    RSS = true
+
+  [params.page]
+    hiddenFromHomePage = false    # 是否在主页隐藏
+    hiddenFromSearch = false  # 是否在搜索结果中隐藏
+    lightgallery = true  # 是否使用 lightgallery
+    fraction = true  # 是否使用 fraction 扩展语法
+    linkToMarkdown = false  # 是否显示原始 Markdown 文档内容的链接
+    rssFullText = false  # 是否在 RSS 中显示全文内容
+    seriesNavigation = true
+    enableLastMod = true
+    enableWordCount = true
+    enableReadingTime = true
+    fontawesome = true
+    [params.page.toc]
+      enable = true  # 是否使用目录
+      keepStatic = false  # 是否保持使用文章前面的静态目录
+      auto = true  # 是否使侧边目录自动折叠展开
+    [params.page.code]
+      copy = true  # 是否显示代码块的复制按钮
+      maxShownLines = 20 # 默认展开显示的代码行数
+    [params.page.table]
+      # 是否开启表格排序
+      sort = true
+    # Social share links in post page
+    [params.page.math]
+      enable = true
+      # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # 默认行内定界符是 $ ... $ 和 \\( ... \\)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # KaTeX 插件 copy_tex
+      copyTex = true
+      # KaTeX 插件 mhchem
+      mhchem = true
+    [params.page.mapbox]
+      # Mapbox GL JS 的 access token
+      accessToken = ""
+      # 浅色主题的地图样式
+      lightStyle = "mapbox://styles/mapbox/light-v9"
+      # 深色主题的地图样式
+      darkStyle = "mapbox://styles/mapbox/dark-v9"
+      # 是否添加 NavigationControl
+      navigation = true
+      # 是否添加 GeolocateControl
+      geolocate = true
+      # 是否添加 ScaleControl
+      scale = true
+      # 是否添加 FullscreenControl
+      fullscreen = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Whatsapp = false
+      Tumblr = true
+      Evernote = true
+    [params.page.seo]
+      images = ["/images/logo.jpg"]
+      # 出版者信息
+      [params.page.seo.publisher]
+        name = "老爸的数字花园"
+        logoUrl = ""
+
+    [params.page.comment]
+        enable = true
+        [params.page.comment.waline]
+          enable = true
+          serverURL = "https://ndc.nasdaddy.com/"
+          pageview = true
+        # giscus 评论系统
+        # [params.page.comment.giscus]
+        #   enable = true
+        #   repo = "dreammis/dreammis.github.io"
+        #   repoId = "R_kgDOJm7ssw"
+        #   category = "Announcements"
+        #   categoryId = "DIC_kwDOJm7ss84CWtK5"
+        #   # 为空时自动适配当前主题 i18n 配置
+        #   lang = ""
+        #   mapping = "pathname"
+        #   reactionsEnabled = "1"
+        #   emitMetadata = "0"
+        #   inputPosition = "bottom"
+        #   lazyLoading = false
+        #   lightTheme = "light"
+        #   darkTheme = "dark"
+        #   crossorigin="anonymous"
+  [params.sponsor]
+    enable = true
+    bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+    link = "https://www.buymeacoffee.com/hysn2001m" # 你的赞赏页面的地址
+    custom = "" # 自定义 HTML
+  [params.typeit]
+    # 每一步的打字速度 (单位是毫秒)
+    speed = 100
+    # 光标的闪烁速度 (单位是毫秒)
+    cursorSpeed = 1000
+    # 光标的字符 (支持 HTML 格式)
+    cursorChar = "|"
+    # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
+    duration = -1
+
+
   [params.search]
     enable = true
     type = "algolia"
@@ -125,68 +234,7 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
       appID = "HTDDML8TWG"
       searchKey = "34cff6bcc4d590e29f8e72e1a4dac5b2"
 
-  [params.home]
-    rss = 20  # RSS 文章数目
-    [params.home.profile]
-      avatarURL = "/images/logo.jpg"
-      altLogoURL = ""
-      title = "老爸的数字花园"
-      subtitle = "爱折腾，爱收藏，爱思考，终身学习的中年老爹"
-      social = true
-    [params.home.posts]
-      paginate = 10
-  [params.social]
-    GitHub = "dreammis"
-    Twitter = "dreammis"
-    Telegram = "nasdaddygroup"
-    Discord= "pookz3250"
-    Email = "dreammis@outlook.com"
-    RSS = true
-
-  [params.page]
-    hiddenFromHomePage = false    # 是否在主页隐藏
-    hiddenFromSearch = false  # 是否在搜索结果中隐藏
-    lightgallery = true  # 是否使用 lightgallery
-    fraction = true  # 是否使用 fraction 扩展语法
-    linkToMarkdown = true  # 是否显示原始 Markdown 文档内容的链接
-    rssFullText = false  # 是否在 RSS 中显示全文内容
-    [params.page.toc]
-      enable = true  # 是否使用目录
-      keepStatic = false  # 是否保持使用文章前面的静态目录
-      auto = true  # 是否使侧边目录自动折叠展开
-    [params.page.code]
-      copy = true  # 是否显示代码块的复制按钮
-      maxShownLines = 50 # 默认展开显示的代码行数
-    # Social share links in post page
-    [params.page.share]
-      enable = true
-      Twitter = true
-      Whatsapp = false
-      Tumblr = true
-      Evernote = true
-    [params.page.seo]
-      images = ["/images/logo.jpg"]
-      # 出版者信息
-      [params.page.seo.publisher]
-        name = "老爸的数字花园"
-        logoUrl = ""
-
-  [params.comment]
-      enable = true
-      [params.comment.giscus]
-        enable = true
-        repo = "dreammis/dreammis.github.io"
-        repoId = "R_kgDOJm7ssw"
-        category = "Announcements"
-        categoryId = "DIC_kwDOJm7ss84CWtK5"
-        mapping = "pathname"
-        reactionsEnabled = "1"
-        emitMetadata = "0"
-        inputPosition = "bottom"
-        lazyLoading = false
-        lightTheme = "light"
-        darkTheme = "dark"
-
+  
 
   [params.seo]
     image = "/images/logo.jpg"  # 图片 URL
@@ -199,6 +247,25 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
       id = "G-BLT50ZZK4B"
       # whether to anonymize IP
       anonymizeIP = true
+
+
+
+
+disableHugoGeneratorInject = true
+# 是否使用 robots.txt
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+paginate = 14
+copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云。不再忍受霸王条款，完全自托管。群晖、威联通QNAP等多种平台，家庭照片相册、视频、电影服务器。了解nas设置、nas软件，nas使用教程，self-host, Synology DSM"
+# 谷歌分析代号 [UA-XXXXXXXX-X]
+# googleAnalytics = "G-BLT50ZZK4B"
+
+# 作者配置
+[author]
+  name = "爱折腾的老爹"
+  email = "hysn2001@gmail.com"
+  link = "https://www.nasdaddy.com"
 
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
@@ -230,6 +297,9 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
   changefreq = "always"
   filename = "sitemap.xml"
   priority = 1
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
 
 [mediaTypes]
   [mediaTypes."text/plain"]
@@ -246,3 +316,62 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+# 语言设置 （暂时废弃）
+# [languages]
+#   [languages.en]
+#     weight = 1
+#     title = "NasDaddy - Self Hosted App"
+#     languageCode = "en"
+#     languageName = "En"
+#     contentDir = 'content/english'
+#     [[languages.en.menu.main]]
+#       identifier = "posts"
+#       name = "Posts"
+#       url = "/posts/"
+#       weight = 1
+#     [[languages.en.menu.main]]
+#       identifier = "about"
+#       name = "About"
+#       url = "/about/"
+#       weight = 2
+#     [[languages.en.menu.main]]
+#       identifier = "categories"
+#       name = "Categories"
+#       url = "/categories/"
+#       weight = 3
+#     [[languages.en.menu.main]]
+#       identifier = "links"
+#       name = "Links"
+#       url = "/links/"
+#       weight = 8
+
+#   [languages.zh-cn]
+#     weight = 2
+#     title = "老爸的数字花园 - Nas 私有云"
+#     # 网站语言, 仅在这里 CN 大写
+#     languageCode = "zh-CN"
+#     languageName = "Cn"
+#     # 是否包括中日韩文字
+#     hasCJKLanguage = true
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "posts"
+#       name = "文章"
+#       url = "/posts/"
+#       weight = 1
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "about"
+#       name = "关于"
+#       url = "/about/"
+#       weight = 2
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "categories"
+#       name = "分类"
+#       url = "/categories/"
+#       weight = 3
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "links"
+#       name = "友链"
+#       url = "/links/"
+#       weight = 8
+

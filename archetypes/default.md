@@ -6,4 +6,5 @@ categories:
 draft: true
 toc: true
 summary: x
+featuredImagePreview: ""
 ---
