@@ -75,6 +75,7 @@ Setup steps:
 ## 2. Install Portainer  
 
 Refer to tutorial:   
+[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ## 3. File Station
 

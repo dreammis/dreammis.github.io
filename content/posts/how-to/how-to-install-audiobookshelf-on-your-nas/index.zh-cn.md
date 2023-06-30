@@ -70,7 +70,7 @@ Audiobookshelf不仅仅是一个有声书库，它还充满了一系列令人印
 
 ## 2. 安装Portainer
 
-教程参考：
+教程参考：[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ##  3. File Station
 
