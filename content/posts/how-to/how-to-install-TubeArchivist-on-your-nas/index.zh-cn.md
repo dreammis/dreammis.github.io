@@ -78,7 +78,7 @@ TubeArchivist是一个强大的工具，可以让你更好地管理和享受你�
 ## 2. 安装Portainer
 
 教程参考：
-[30秒安装Nas必备神器 Portainer](/posts/install-portainer-in-nas/)
+[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ##  3. File Station
 

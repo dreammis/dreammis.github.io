@@ -8,38 +8,72 @@ theme = 'DoIt'
 timeZone = "Asia/Shanghai"
 
 [menu]
-  [[menu.main]]
+  [[zh-cn.main]]
     identifier = "posts"
     name = "文章"
     url = "/posts/"
     weight = 1
-   [[menu.main]]
+   [[zh-cn.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
     weight = 2
-  [[menu.main]]
+  [[zh-cn.main]]
     identifier = "categories"
     name = "分类"
     url = "/categories/"
     weight = 3
-  [[menu.main]]
+  [[zh-cn.main]]
     identifier = "links"
     name = "友链"
     url = "/links/"
     weight = 8
-  [[menu.main]]
+  [[zh-cn.main]]
     identifier = "rss"
     pre = "<i class='fas fa-rss-square'></i>"
     url = "/index.xml"
     title = "RSS"
     weight = 18
-  [[menu.main]]
+  [[zh-cn.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-fw'></i>"
     url = "https://github.com/dreammis"
     title = "GitHub"
     weight = 20
+
+  [[en.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+   [[en.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 2
+  [[en.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+  [[en.main]]
+    identifier = "links"
+    name = "友链"
+    url = "/links/"
+    weight = 8
+  [[en.main]]
+    identifier = "rss"
+    pre = "<i class='fas fa-rss-square'></i>"
+    url = "/index.xml"
+    title = "RSS"
+    weight = 18
+  [[en.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    url = "https://github.com/dreammis"
+    title = "GitHub"
+    weight = 20
+
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")
@@ -103,7 +137,7 @@ timeZone = "Asia/Shanghai"
     [params.home.profile]
       avatarURL = "/images/logo.jpg"
       altLogoURL = ""
-      title = "老爸的数字花园"
+      # title = "老爸的数字花园" # 暂时去掉头像下名称
       subtitle = "爱折腾，爱收藏，爱思考，终身学习的中年老爹"
       social = true
       typeit = true
@@ -263,7 +297,7 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
 
 # 作者配置
 [author]
-  name = "爱折腾的老爹"
+  name = "Pookz"
   email = "hysn2001@gmail.com"
   link = "https://www.nasdaddy.com"
 
@@ -318,60 +352,60 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
   taxonomyTerm = ["HTML"]
 
 # 语言设置 （暂时废弃）
-# [languages]
-#   [languages.en]
-#     weight = 1
-#     title = "NasDaddy - Self Hosted App"
-#     languageCode = "en"
-#     languageName = "En"
-#     contentDir = 'content/english'
-#     [[languages.en.menu.main]]
-#       identifier = "posts"
-#       name = "Posts"
-#       url = "/posts/"
-#       weight = 1
-#     [[languages.en.menu.main]]
-#       identifier = "about"
-#       name = "About"
-#       url = "/about/"
-#       weight = 2
-#     [[languages.en.menu.main]]
-#       identifier = "categories"
-#       name = "Categories"
-#       url = "/categories/"
-#       weight = 3
-#     [[languages.en.menu.main]]
-#       identifier = "links"
-#       name = "Links"
-#       url = "/links/"
-#       weight = 8
+[languages]
+  [languages.en]
+    weight = 1
+    title = "NasDaddy - Self Hosted App"
+    languageCode = "en"
+    languageName = "En"
+    contentDir = 'content/english'
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/categories/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "links"
+      name = "Links"
+      url = "/links/"
+      weight = 8
 
-#   [languages.zh-cn]
-#     weight = 2
-#     title = "老爸的数字花园 - Nas 私有云"
-#     # 网站语言, 仅在这里 CN 大写
-#     languageCode = "zh-CN"
-#     languageName = "Cn"
-#     # 是否包括中日韩文字
-#     hasCJKLanguage = true
-#     [[languages.zh-cn.menu.main]]
-#       identifier = "posts"
-#       name = "文章"
-#       url = "/posts/"
-#       weight = 1
-#     [[languages.zh-cn.menu.main]]
-#       identifier = "about"
-#       name = "关于"
-#       url = "/about/"
-#       weight = 2
-#     [[languages.zh-cn.menu.main]]
-#       identifier = "categories"
-#       name = "分类"
-#       url = "/categories/"
-#       weight = 3
-#     [[languages.zh-cn.menu.main]]
-#       identifier = "links"
-#       name = "友链"
-#       url = "/links/"
-#       weight = 8
+  [languages.zh-cn]
+    weight = 2
+    title = "老爸的数字花园 - Nas 私有云"
+    # 网站语言, 仅在这里 CN 大写
+    languageCode = "zh-CN"
+    languageName = "Cn"
+    # 是否包括中日韩文字
+    hasCJKLanguage = true
+    [[languages.zh-cn.menu.main]]
+      identifier = "posts"
+      name = "文章"
+      url = "/posts/"
+      weight = 1
+    [[languages.zh-cn.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "/about/"
+      weight = 2
+    [[languages.zh-cn.menu.main]]
+      identifier = "categories"
+      name = "分类"
+      url = "/categories/"
+      weight = 3
+    [[languages.zh-cn.menu.main]]
+      identifier = "links"
+      name = "友链"
+      url = "/links/"
+      weight = 8
 

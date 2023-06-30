@@ -2,9 +2,13 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories:
-- default
+- Nas教程
 draft: true
+# url : /posts/xxx  # 指定url
 toc: true
-summary: x
+description: [description]
+featuredImage: ""
 featuredImagePreview: ""
 ---
+[description]
+<!--more-->

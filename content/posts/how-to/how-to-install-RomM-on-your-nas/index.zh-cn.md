@@ -55,7 +55,7 @@ RomM的特点和功能非常强大：
 ## 2. 安装Portainer
 
 教程参考：
-[30秒安装Nas必备神器 Portainer](/posts/install-portainer-in-nas/)
+[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ##  3. File Station
 

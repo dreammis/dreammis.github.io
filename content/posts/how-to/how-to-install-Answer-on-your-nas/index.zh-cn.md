@@ -54,7 +54,8 @@ Answer是一个开源的知识型社区软件。通过它，你可以快速搭�
 ## 2. 安装Portainer
 
 教程参考：
-[30秒安装Nas必备神器 Portainer](/posts/install-portainer-in-nas/)
+
+[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ##  3. File Station
 
@@ -107,7 +108,7 @@ services:
 
 使用sqlite即可，如果公司使用，建议mysql，pg这样的
 
-![Alt text](https://noted.lol/content/images/2023/01/answer-self-hosted-database.png "Pic")
+![Alt text](https://img-nasdaddy.liuxingoo.cn/202306301702433.png "Pic")
 
 
 

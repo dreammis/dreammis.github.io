@@ -58,7 +58,7 @@ Stirling-PDF 是一个强大的本地托管的基于Web的PDF操作工具，通�
 ## 2. 安装Portainer
 
 教程参考：
-[30秒安装Nas必备神器 Portainer](/posts/install-portainer-in-nas/)
+[30秒安装Nas必备神器 Portainer](/how-to-install-portainer-in-nas/)
 
 ##  3. File Station
 
