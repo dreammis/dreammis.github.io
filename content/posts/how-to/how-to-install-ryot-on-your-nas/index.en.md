@@ -2,11 +2,10 @@
 title: "How to Build Your Own 'Douban' on Nas: Step-by-Step Guide to Building Ryot and Creating a Brand New Digital Life Experience to Record Every Moment"
 date: 2023-07-06T15:45:10+08:00
 categories:
-- Nas Tutorial
+- Nas Tutorials
 draft: false
-# url : /posts/xxx  # Specify URL
 toc: true
-description: Technology Empowers Life: Build Ryot Yourself to Record Your Reading, Watching, Gaming, and Fitness.
+description: Technology Empowers Life - Build Ryot Yourself to Record Your Reading, Watching, Gaming, and Fitness.
 ---
 Technology Empowers Life: Build Ryot Yourself to Record Your Reading, Watching, Gaming, and Fitness.
 <!--more-->
@@ -98,7 +97,7 @@ services:
   ignisda:
     image: 'ghcr.io/ignisda/ryot:latest'
     volumes:
-        - ./ryot-data:/data
+        - /volume1/docker/ryot/ryot-data:/data
     environment:
         - WEB_INSECURE_COOKIE=true
         - VIDEO_GAMES_TWITCH_CLIENT_ID=xxxx # Optional, your Twitch ID, explained in detail below

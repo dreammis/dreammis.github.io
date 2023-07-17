@@ -187,6 +187,6 @@ You can see the progress bar:
 
 ## Finally
 
-If you like this article, please remember to like, bookmark, and follow [Dad's Digital Garden](https://example.com). We will continue to bring more practical self-built application guides. Together, let's take control of our own data and create our own digital world!
+If you like this article, please remember to like, bookmark, and follow [Dad's Digital Garden](https://nasdaddy.com). We will continue to bring more practical self-built application guides. Together, let's take control of our own data and create our own digital world!
 
 If you encounter any problems during the setup process, or if you have any suggestions, please feel free to leave a comment below. Let's discuss and learn together.

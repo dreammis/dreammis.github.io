@@ -2,7 +2,7 @@
 title: "Simple, Clean, Ad-Free Niche Free Note-taking App: Self-built Tutorial for Flatnotes on NAS"
 date: 2023-06-27T17:59:52+08:00
 categories:
-- NAS Tutorial
+- NAS Tutorials
 draft: false
 toc: true
 lightgallery: true

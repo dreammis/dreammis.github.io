@@ -2,7 +2,7 @@
 title: "A Universe in NAS: How to Run Github on NAS"
 date: 2023-06-27T18:28:44+08:00
 categories:
-- NAS Tutorial
+- NAS Tutorials
 draft: false
 toc: true
 ---

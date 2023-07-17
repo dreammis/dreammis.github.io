@@ -2,7 +2,7 @@
 title: "How to Win Back Your Loved One's Heart with the Power of Technology: I Used Excalidraw to Make Her Understand My Heart"
 date: 2023-06-27T17:48:41+08:00
 categories:
-- Nas Tutorial
+- Nas Tutorials
 draft: false
 toc: true
 ---

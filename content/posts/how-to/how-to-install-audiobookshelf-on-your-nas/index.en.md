@@ -2,7 +2,7 @@
 title: "How to fully utilize your NAS: Build Audiobookshelf to achieve an all-in-one reading and listening experience"
 date: 2023-06-30T09:33:40+08:00
 categories:
-- Nas教程
+- NAS Tutorials
 draft: false
 toc: true
 description: Want to achieve an all-in-one family reading experience?This article teaches you in detail how to deploy an AudioBookshelf server on NAS to manage unlimited eBooks, audiobooks and podcasts, sync progress, listen and read across devices, an ultimate experience, step-by-step teaching, easy to understand!

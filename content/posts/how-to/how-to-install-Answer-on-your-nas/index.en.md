@@ -2,7 +2,7 @@
 title: "Upgrade Your NAS: Set up a Knowledge Sharing Platform with Answer for an Optimal Customer Experience"
 date: 2023-06-27T18:38:52+08:00
 categories:
-- Nas教程
+- NAS Tutorials
 draft: false
 toc: true
 ---

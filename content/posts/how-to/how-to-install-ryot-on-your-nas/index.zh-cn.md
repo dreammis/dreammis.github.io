@@ -98,7 +98,7 @@ services:
   ignisda:
     image: 'ghcr.io/ignisda/ryot:latest'
     volumes:
-        - ./ryot-data:/data
+        - /volume1/docker/ryot/ryot-data:/data
     environment:
         - WEB_INSECURE_COOKIE=true
         - VIDEO_GAMES_TWITCH_CLIENT_ID=xxxx # 非必须，你的witch id,详细下文解释
