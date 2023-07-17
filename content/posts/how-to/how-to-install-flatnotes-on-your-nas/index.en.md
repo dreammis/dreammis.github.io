@@ -127,6 +127,6 @@ services:
 
 ## Finally
 
-If you liked this article, please remember to like, bookmark, and follow [Dad's Digital Garden](https://img-nasdaddy.liuxingoo.cn/img/202306060944583.png). We will continue to bring you more practical self-built application guides. Together, let's take control of our own data and create our own digital world!
+If you liked this article, please remember to like, bookmark, and follow [Dad's Digital Garden](https://nasdaddy.com). We will continue to bring you more practical self-built application guides. Together, let's take control of our own data and create our own digital world!
 
 If you encounter any problems during the setup process or have any suggestions, please feel free to leave a comment below. Let's explore and learn together.
