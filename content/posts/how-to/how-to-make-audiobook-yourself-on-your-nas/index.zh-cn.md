@@ -10,7 +10,7 @@ featuredImage: "AudioBook-Image.png"
 featuredImagePreview: "AudioBook-Image.png"
 
 ---
-自己制作有声书籍！Audiobook Maker让你的电子书变成有声读物。享受碎片时间的阅读乐趣，云舒等多种语音选择。点击了解详细教程和案例。
+自己制作有声书籍！Audiobook Maker让你的电子书变成有声读物。享受碎片时间的阅读乐趣，云舒等多种语音选择。点击了解详细教程和案例
 <!--more-->
 
 ## 1. 前言

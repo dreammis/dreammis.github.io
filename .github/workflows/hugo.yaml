@@ -70,6 +70,16 @@ jobs:
         with:
           path: ./public
 
+      - uses: actions/checkout@v3
+
+      - name: Run GPT Translate
+        if: |
+          contains(github.event.comment.body, '/gpt-translate') || 
+          contains(github.event.comment.body, '/gt')
+        uses: 3ru/gpt-translate@v1.1
+        with:
+          apikey: ${{ secrets.OPENAI_API_KEY }}
+
   # Deployment job
   deploy:
     environment:
