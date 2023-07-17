@@ -126,4 +126,4 @@ If you encounter any problems during the setup process or have any suggestions, 
 
 If your girlfriend doesn't allow you to buy a NAS, you can tell her that buying a NAS is to love her better 🤣
 
-Follow [Dad's Digital Garden](link) for interesting NAS toys and private cloud deployment.
+Follow [Nasdaddy](https://nasdaddy.com) for interesting NAS toys and private cloud deployment.
