@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - main
-  issue_comment:
-    types: [ created ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,20 +28,6 @@ defaults:
     shell: bash
 
 jobs:
-  gpt_translate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Run GPT Translate
-        if: |
-          contains(github.event.comment.body, '/gpt-translate') || 
-          contains(github.event.comment.body, '/gt')
-        uses: 3ru/gpt-translate@v1.1
-        with:
-          apikey: ${{ secrets.OPENAI_API_KEY }}
-
   # Build job
   build:
     runs-on: ubuntu-latest
