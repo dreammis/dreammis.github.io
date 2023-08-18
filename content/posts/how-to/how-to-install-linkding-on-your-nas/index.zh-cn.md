@@ -189,6 +189,18 @@ services:
 ![Alt text](image-20230817173004095.png "Pic")
 
 
+#### 手机添加ios快捷指令（2023.8.18 add）
+1. 下载快捷指令（shortcut）
+2. 添加快捷指令（shortcut）
+![](image.png)
+3. 开启分享
+![](image-1.png)
+4. 添加action（show web view at）， url 填写你的linkding 地址，`url=` 后面，不需要你手动输入，这里添加shortcut 变量 [Shortcut Input]，至此设置完成
+![](image-2.png)
+5. 打开你想要收藏的网站，点击share，选择你的快捷指令（shortcut）即可
+![](image-3.png)
+
+
 
 ## 其他重要设置
 
