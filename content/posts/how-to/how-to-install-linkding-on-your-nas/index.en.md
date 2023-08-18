@@ -104,9 +104,6 @@ Open File Station and create a `linkding` folder in the docker folder
 
 ```yaml
 version: '3'
-
-```
-
 services:
   linkding:
     container_name: "linkding"
