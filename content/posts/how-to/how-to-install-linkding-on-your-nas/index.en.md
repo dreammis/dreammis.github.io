@@ -2,7 +2,7 @@
 title: "Say goodbye to messy bookmarks: Why you need to build your own efficient bookmark manager - linkding"
 date: 2023-08-17T18:51:00+08:00
 categories:
-- NAS Tutorials
+- NAS Tutorial
 draft: false
 # url : /posts/xxx  # Specify URL
 toc: true
@@ -13,18 +13,18 @@ A powerful, simple, and most importantly, bookmark management tool that you cont
 
 
 ## 1. Introduction
-Have you ever encountered this dilemma? You have a mountain of bookmarks in your browser's bookmarks folder, but it's difficult to quickly find the one you need.
+Have you ever encountered this dilemma? Your browser bookmarks are piled up like a mountain, making it difficult to quickly find the one you need.
 
-Or maybe you want to sync your bookmarks across multiple devices, but you're hindered for some reason? Have you ever thought about having a tool that is both simple, powerful, and most importantly - under your control?
+Or do you want to sync your bookmarks across multiple devices, but you are hindered for some reason? Have you ever thought of having a tool that is not only simple and powerful, but most importantly, controlled by you?
 
-Then you need to know about today's protagonist **linkding**.
+Then, you need to know about today's protagonist **linkding**.
 
 
 ![Alt text](linkding-screenshot.png "Pic")
 
 
 
-And there are two `powerful companion plugins` that make it easy to add bookmarks quickly, read the content of the website, and also support `adding bookmarks on mobile devices`.
+And there are two `powerful accompanying plugins` that make it easy to add bookmarks quickly, read the content of the website, and also support `adding bookmarks on mobile devices`.
 
 ![Alt text](image-20230817175507189.png "Pic")
 
@@ -36,7 +36,7 @@ And there are two `powerful companion plugins` that make it easy to add bookmark
 
 ## Introducing Linkding
 
-**linkding** is a bookmark manager that you can host yourself. It is designed to be simple, fast, and can be easily set up using Docker. The name is also full of fun: `link` is commonly used to represent URLs and bookmarks, and `Ding` means "thing" in German. So, this is a "thing" for managing your links.
+**linkding** is a bookmark manager that you can host yourself. It is designed to be simple, fast, and can be easily set up using Docker. The name is also interesting: `link` is commonly used to represent URLs and bookmarks, and `Ding` means "thing" in German. So, this is a "thing" for managing your links.
 
 **Features at a glance:**
 
@@ -64,7 +64,7 @@ Setup steps:
 
 ## 1. Key Point
 
-`Follow for free`, don't get lost
+`Follow for free` to avoid getting lost
 
 ## 2. Docker management graphical tool
 
@@ -80,17 +80,17 @@ Setup steps:
 
 
 
-#### Install Portainer yourself
+#### Install Portainer on your own
 
 Tutorial reference:
 [30-second installation of Portainer, a must-have tool for NAS](/how-to-install-portainer-in-nas/)
 
 
-Next, we will use Portainer as an example.
+Next, take Portainer as an example
 
 ##  3. File Station
 
-Open File Station and create a `linkding` folder in the docker folder.
+Open File Station and create a `linkding` folder in the docker folder
 
 ![Alt text](image-20230817174939111.png "Pic")
 
@@ -107,7 +107,6 @@ version: '3'
 
 ```
 
-```markdown
 services:
   linkding:
     container_name: "linkding"
@@ -131,15 +130,19 @@ services:
 
 ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
 
+
+
 ## 7. Usage
 
 Access the program in your browser: [ip]:[port]
 
-> Replace "ip" with the IP address of your NAS (mine is 172.16.23.106), and replace "port" with the port defined in the configuration file (if you followed my tutorial, it is 9090).
+> Replace "ip" with the IP address of your NAS (mine is 172.16.23.106), and replace "port" with the port defined in the configuration file (if you followed my tutorial, it would be 9090).
 
 ![Alt text](image-20230817170734989.png "Pic")
 
-## 8. Special Features
+## 8. Special Features Showcase
+
+
 
 ### Install Plugin 1: linkding Browser Extension
 
@@ -147,25 +150,35 @@ Access the program in your browser: [ip]:[port]
 
 ![Alt text](image-20230817172606381.png "Pic")
 
+
+
 Search for "linkding extension" in the plugin marketplace.
 
 ![Alt text](image-20230817170906677.png "Pic")
+
+
 
 #### Configure linkding Browser Extension
 
 ![Alt text](image-20230817171411997.png "Pic")
 
-- linkding: If you have a public IP address, set it here for the best experience (you can refer to other tutorials or leave a comment to let me know your requirements).
-- default tags: Default tag for links. I have set it to "unread", and I regularly clean up these tags and move them to the appropriate tag.
-- api token: Set in the linkding backend.
+- linkding: If you have a public IP address, set it as the linkding address for the best experience (you can refer to other tutorials or leave a comment to let me know your requirements).
+
+- default tags: Default tag for links. Here, I set it as "unread". I regularly clean up these tags and move them to the appropriate tags.
+
+- api token: Set it in the linkding backend.
 
   ![Alt text](image-20230817171656254.png "Pic")
+
+
 
 ### Install Plugin 2: linkding Search Engine Extension
 
 > This plugin helps us quickly find our bookmarked links when searching for related content in the browser.
 
 ![Alt text](image-20230817172845951.png "Pic")
+
+
 
 Search for "linkding injector" in the plugin marketplace.
 
@@ -177,27 +190,49 @@ Same as above.
 
 ![Alt text](image-20230817173004095.png "Pic")
 
+
+#### Add iOS Shortcut for Mobile (added on August 18, 2023)
+1. Download the Shortcut app.
+2. Add a new shortcut.
+![](image.png)
+3. Enable sharing.
+![](image-1.png)
+4. Add an action (show web view at), and enter your linkding address in the URL field. You don't need to manually enter the URL; add the "Shortcut Input" variable here. The setup is now complete.
+![](image-2.png)
+5. Open the website you want to bookmark, click on share, and select your shortcut to add it.
+![](image-3.png)
+
+
+
 ## Other Important Settings
 
 #### Automatically Add to Archive (Record Website History)
 
-Often, we come across a website with good content and bookmark it. But after a while, the website may shut down or the content may be deleted. In such cases, we need a "web page archive" feature.
+Often, we come across a website with great content and bookmark it. But after some time, the website may shut down or the content may be deleted. In such cases, we need a feature called "web page archiving".
 
-linkding supports automatically importing your bookmarks to archive.org to record the website's appearance at that time.
+linkding supports automatically importing your bookmarks to archive.org to record the appearance of the website at that time.
 
-This "flag" indicates that archive.org synchronization has been enabled.
+
+
+This `icon` indicates that it has been synchronized with archive.org.
 
 ![Alt text](image-20230817175808127.png "Pic")
 
 ![Alt text](image-20230817173531938.png "Pic")
 
-To enable it, go to settings -> Internet archive integration.
+
+
+To enable this feature:
+
+Go to settings -> Internet archive integration.
+
+
 
 ![Alt text](image-20230817173235437.png "Pic")
 
-> I would like to mention that archive.org is a non-profit website. If you use it extensively, consider donating to support them.
+> I would like to mention that archive.org is a non-profit website. If you use this website extensively, consider donating to support them.
 
-Also, if you have any needs, please "leave a comment". In the future, I can introduce another bookmarking tool to you. The difference is that this one automatically takes screenshots of bookmarked content and exports them as PDFs.
+If you have any comments or suggestions, please let me know. In the future, I can introduce another bookmarking tool to you. The difference is that this tool automatically takes screenshots of bookmark content and exports them as PDF.
 
 ![Alt text](image-20230817174500594.png "Pic")
 
@@ -206,8 +241,7 @@ Also, if you have any needs, please "leave a comment". In the future, I can intr
 ![Alt text](image-20230817174558562.png "Pic")
 
 ## Finally
-```
 
-If you like this article, please remember to like, bookmark, and follow [Dad's Digital Garden](link), as we will continue to bring you more practical self-built application guides. Together, let's take control of our own data and create our own digital world!
+If you like this article, please remember to like, bookmark, and follow [Dad's Digital Garden](https://example.com). We will continue to bring you more practical self-built application guides. Let's take control of our own data and create our own digital world!
 
-If you encounter any problems during the setup process or have any suggestions, please feel free to leave a comment below. Let's explore and learn together.
+If you encounter any problems or have any suggestions during the setup process, feel free to leave a comment below. Let's explore and learn together.
