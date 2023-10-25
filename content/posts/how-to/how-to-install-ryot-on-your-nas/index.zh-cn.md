@@ -88,7 +88,7 @@ File Station 打开docker 文件夹，创建`Ryot`文件夹
 
 ## 4. 创建stack
 
-![1 Synology Portainer Add Stack](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png)
+![1 Synology Portainer Add Stack](images/portainer-slack-add.png)
 
 ## 5.  部署代码
 
@@ -150,7 +150,7 @@ services:
 
 ## 6. 成功
 
-![Excalidraw Synology NAS Set up 3](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png)
+![portainer-slack-add-success](images/portainer-slack-add-success.png)
 
 
 

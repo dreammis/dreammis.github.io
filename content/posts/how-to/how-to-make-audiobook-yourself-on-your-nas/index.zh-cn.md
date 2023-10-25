@@ -96,7 +96,7 @@ Audiobook Maker可以将`EPUB`格式的电子书转换为有声书。
 
 ## 4. 创建stack
 
-![1 Synology Portainer Add Stack](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png)
+![1 Synology Portainer Add Stack](images/portainer-slack-add.png)
 
 ## 5.  部署代码
 
@@ -146,7 +146,7 @@ services:
 
 ## 6. 成功
 
-![Excalidraw Synology NAS Set up 3](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png)
+![portainer-slack-add-success](images/portainer-slack-add-success.png)
 
 
 

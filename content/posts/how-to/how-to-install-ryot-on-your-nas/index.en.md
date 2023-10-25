@@ -87,7 +87,7 @@ Open File Station and create a "Ryot" folder in the docker folder.
 
 ## 4. Create Stack
 
-![1 Synology Portainer Add Stack](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png)
+![1 Synology Portainer Add Stack](images/portainer-slack-add.png)
 
 ## 5. Deploy the Code
 
@@ -144,7 +144,7 @@ Set this to true for the first time to allow user registration. If you are not u
 
 ## 6. Success
 
-![Excalidraw Synology NAS Set up 3](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png)
+![portainer-slack-add-success](images/portainer-slack-add-success.png)
 
 ## 7. Usage
 
