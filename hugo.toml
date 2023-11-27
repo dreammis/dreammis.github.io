@@ -74,6 +74,39 @@ timeZone = "Asia/Shanghai"
     title = "GitHub"
     weight = 20
 
+  [[de.main]]
+    identifier = "posts"
+    name = "Beiträge"
+    url = "/posts/"
+    weight = 1
+   [[de.main]]
+    identifier = "about"
+    name = "Über"
+    url = "/about/"
+    weight = 2
+  [[de.main]]
+    identifier = "categories"
+    name = "Kategorien"
+    url = "/categories/"
+    weight = 3
+  [[de.main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    weight = 8
+  [[de.main]]
+    identifier = "rss"
+    pre = "<i class='fas fa-rss-square'></i>"
+    url = "/index.xml"
+    title = "RSS"
+    weight = 18
+  [[de.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    url = "https://github.com/dreammis"
+    title = "GitHub"
+    weight = 20
+
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")
@@ -374,6 +407,33 @@ copyright = "一步步带你搭建属于你的个人家庭NAS存储和私有云�
       url = "/categories/"
       weight = 3
     [[languages.en.menu.main]]
+      identifier = "links"
+      name = "Links"
+      url = "/links/"
+      weight = 8
+
+  [languages.de]
+    weight = 2
+    title = "NasDaddy - Self Hosted App"
+    languageCode = "de"
+    languageName = "De"
+    contentDir = 'content/germany'
+    [[languages.de.menu.main]]
+      identifier = "posts"
+      name = "Beiträge"
+      url = "/posts/"
+      weight = 1
+    [[languages.de.menu.main]]
+      identifier = "about"
+      name = "Über"
+      url = "/about/"
+      weight = 2
+    [[languages.de.menu.main]]
+      identifier = "categories"
+      name = "Kategorien"
+      url = "/categories/"
+      weight = 3
+    [[languages.de.menu.main]]
       identifier = "links"
       name = "Links"
       url = "/links/"
