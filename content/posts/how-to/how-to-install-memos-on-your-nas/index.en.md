@@ -85,13 +85,13 @@ With RESTful API support, Memos can easily integrate with third-party services, 
 
 #### Synology DSM 7.2 or above can directly use *Container Manager*
 
-![container-manager-1](images\container-manager-1.png)
+![container-manager-1](images/container-manager-1.png)
 
 #### QNAP ContainerStation
 
-![container-station-1](images\container-station-1.png)
+![container-station-1](images/container-station-1.png)
 
-![container-station-2](images\container-station-2.png)
+![container-station-2](images/container-station-2.png)
 
 #### Install Portainer on your own
 
