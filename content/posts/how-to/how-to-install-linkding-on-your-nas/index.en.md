@@ -2,7 +2,7 @@
 title: "Say goodbye to messy bookmarks: Why you need to build your own efficient bookmark manager - linkding"
 date: 2023-08-17T18:51:00+08:00
 categories:
-- NAS Tutorial
+- NAS Tutorials
 draft: false
 # url : /posts/xxx  # Specify URL
 toc: true

@@ -2,7 +2,7 @@
 title: "Sagen Sie Auf Wiedersehen zu unordentlichen Lesezeichen: Warum Sie Ihren eigenen effizienten Lesezeichen-Manager erstellen müssen - linkding"
 date: 2023-08-17T18:51:00+08:00
 categories:
-- NAS Tutorial
+- NAS Tutorials
 draft: false
 # url : /posts/xxx  # Specify URL
 toc: true
