@@ -89,13 +89,13 @@ Memos提供直观的分享功能，不论是个人笔记还是团队协作，都
 
 #### 群晖 DSM 7.2版本以上可以直接使用 *Container Manager*
 
-![container-manager-1](images\container-manager-1.png)
+![container-manager-1](images/container-manager-1.png)
 
 #### 威联通 ContainerStation 
 
-![container-station-1](images\container-station-1.png)
+![container-station-1](images/container-station-1.png)
 
-![container-station-2](images\container-station-2.png)
+![container-station-2](images/container-station-2.png)
 
 
 
