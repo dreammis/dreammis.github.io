@@ -20,3 +20,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           model: "mixtral-8x7b-32768"
+          basePath: 'api.groq.com/openai'
