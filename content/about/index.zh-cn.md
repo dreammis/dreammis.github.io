@@ -63,4 +63,4 @@ NasDaddy是用来记录我折腾Nas，服务器，self-hosted的地方，在这�
 - Email: [dreammis@outlook.com](mailto:dreammis@outlook.com)
 - Twitter: [@dreammis](https://twitter.com/dreammis)
 - WeChat
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306291407428.png "wechat-mp")
+![Alt text](./202306291407428.png "wechat-mp")

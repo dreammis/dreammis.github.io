@@ -11,7 +11,7 @@ toc: true
 
 你是不是常常和女朋友因为一些事情而在微信`文字+语音`里争论不已
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291425520.gif "Pic")
+![Alt text](202305291425520.gif "Pic")
 
 
 
@@ -22,7 +22,7 @@ toc: true
 - 😒小则女朋友跑路
 - 😫大则妻离子散
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291422135.png "Pic")
+![Alt text](202305291422135.png "Pic")
 
 那么该怎么办呢？
 
@@ -40,7 +40,7 @@ toc: true
 
 整个过程，不需要文字，你就能知道事情的经过是什么，完美解决沟通问题
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291435555.png "Pic")
+![Alt text](202305291435555.png "Pic")
 
 
 
@@ -96,7 +96,7 @@ services:
 
 
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291442842.png "Pic")
+![Alt text](202305291442842.png "Pic")
 
 
 
@@ -112,9 +112,9 @@ services:
 2. 随意的画画
 3. 导出（png，svg）
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291454803.png "Pic")
+![Alt text](202305291454803.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291454150.png "Pic")
+![Alt text](202305291454150.png "Pic")
 
 
 
@@ -122,7 +122,7 @@ services:
 
 excalidraw拥有大量网友素材，可以随意添加，而且这是你自己的
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291455876.png "Pic")
+![Alt text](202305291455876.png "Pic")
 
 
 
@@ -131,7 +131,7 @@ excalidraw拥有大量网友素材，可以随意添加，而且这是你自己�
 1. 点击浏览素材
 2. 添加喜欢的素材
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291455833.png "Pic")
+![Alt text](202305291455833.png "Pic")
 
 
 

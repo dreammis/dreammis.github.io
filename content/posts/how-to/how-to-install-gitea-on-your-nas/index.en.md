@@ -17,13 +17,13 @@ If you are a Python developer who is passionate about various projects or an ind
 
 Gitea is an open-source Git service that can be understood as a self-hosted GitHub. Gitea supports self-hosting, which means you can deploy and run Gitea on your own server. It provides a clean and user-friendly interface that allows users to create, clone, and manage their repositories. In particular, Gitea is designed to be simple and lightweight, enabling it to run on various platforms and environments.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100932342.png "Pic")
+![Alt text](./202306100932342.png "Pic")
 
 Compared to similar software, Gitea has the following features:
 
 - **Lightweight**: Gitea is a very lightweight application that requires minimal system resources to run. This makes it ideal for personal or small team use. With 3 years of running and 251 projects, its resource consumption is so low that even a snail can handle it.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100935404.png "Pic")
+![Alt text](./202306100935404.png "Pic")
 
 - **Self-hosted**: Gitea can be run on your own server, giving you full control over your data and services. You don't have to worry about issues with third-party services, such as data loss or service shutdown.
 - **User-friendly**: Gitea provides a user-friendly interface that allows you to easily manage your code. Whether you are a programmer or a non-programmer, Gitea can help you efficiently complete your work.
@@ -31,7 +31,7 @@ Compared to similar software, Gitea has the following features:
 
 Starting from version 1.91, Gitea supports the Action feature. This is a powerful feature that automates your development workflow, such as automatic building, testing, and deploying of your code.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100939541.png "Pic")
+![Alt text](./202306100939541.png "Pic")
 
 ---
 
@@ -49,11 +49,11 @@ Tutorial reference: [30-second Installation of Portainer, a Must-have Tool for N
 
 Open File Station and create a `Gitea` folder in the Docker folder.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100941410.png "Pic")
+![Alt text](./202306100941410.png "Pic")
 
 ## 4. Create Stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deploy Code
 
@@ -80,7 +80,7 @@ services:
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 ## 6. Usage
 
@@ -88,7 +88,7 @@ Access the program in your browser: [ip]:[port]
 
 > Replace "ip" with the IP address of your NAS (e.g. 192.168.2.32) and "port" with the port defined in the configuration file (e.g. 10011 if you followed my tutorial).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100948705.png "Pic")
+![Alt text](./202306100948705.png "Pic")
 
 ## 7. Initial Configuration
 
@@ -96,7 +96,7 @@ Access the program in your browser: [ip]:[port]
 
 SQLite is sufficient for lightweight usage and does not require a large database like MySQL or PostgreSQL.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100949012.png "Pic")
+![Alt text](./202306100949012.png "Pic")
 
 - Server Domain
 
@@ -106,35 +106,35 @@ Server Domain: No need to change for internal access, replace with domain for ex
 
 Base URL: No need to change for internal access, replace with domain for external access (must be http or https, e.g. https://gitea.nasdaddy.cn).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100954477.png "Pic")
+![Alt text](./202306100954477.png "Pic")
 
 - Others
 
 You don't need to configure the email, use your own.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100957267.png "Pic")
+![Alt text](./202306100957267.png "Pic")
 
 Configure the administrator account.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100959307.png "Pic")
+![Alt text](./202306100959307.png "Pic")
 
 - Completion
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100959159.png "Pic")
+![Alt text](./202306100959159.png "Pic")
 
 ## 8. Change Theme
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101002925.png "Pic")
+![Alt text](./202306101002925.png "Pic")
 
 ## 9. My Favorite Feature (Mirror Clone)
 
 With Gitea's one-click migration, you can easily migrate repositories (including commits, branches, and tags) from GitHub and other projects I have participated in.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101004251.png "Pic")
+![Alt text](./202306101004251.png "Pic")
 
 For example, for the popular project gpt4free, the author may close the repository at any time due to pressure. So I mirrored the repository in my private cloud!
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101006053.png "Pic")
+![Alt text](./202306101006053.png "Pic")
 
 ## Finally
 

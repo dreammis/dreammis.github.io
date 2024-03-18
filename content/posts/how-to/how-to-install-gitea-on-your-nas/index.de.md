@@ -17,13 +17,13 @@ Wenn Sie ein Python-Entwickler sind, der leidenschaftlich an verschiedenen Proje
 
 Gitea ist ein Open-Source-Git-Dienst, der als selbst gehostetes GitHub verstanden werden kann. Gitea unterstützt das Selbsthosting, was bedeutet, dass Sie Gitea auf Ihrem eigenen Server bereitstellen und ausführen können. Es bietet eine saubere und benutzerfreundliche Benutzeroberfläche, mit der Benutzer ihre Repositories erstellen, klonen und verwalten können. Insbesondere ist Gitea darauf ausgelegt, einfach und leichtgewichtig zu sein, sodass es auf verschiedenen Plattformen und Umgebungen ausgeführt werden kann.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100932342.png "Bild")
+![Alt text](./202306100932342.png "Bild")
 
 Im Vergleich zu ähnlicher Software verfügt Gitea über folgende Funktionen:
 
 - **Leichtgewichtig**: Gitea ist eine sehr leichtgewichtige Anwendung, die minimale Systemressourcen zum Ausführen benötigt. Dies macht es ideal für den persönlichen oder kleinen Teamgebrauch. Mit 3 Jahren Laufzeit und 251 Projekten ist der Ressourcenverbrauch so gering, dass selbst eine Schnecke damit umgehen kann.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100935404.png "Bild")
+![Alt text](./202306100935404.png "Bild")
 
 - **Selbst gehostet**: Gitea kann auf Ihrem eigenen Server ausgeführt werden, sodass Sie die volle Kontrolle über Ihre Daten und Dienste haben. Sie müssen sich keine Sorgen um Probleme mit Drittanbieterdiensten wie Datenverlust oder Dienstabschaltung machen.
 - **Benutzerfreundlich**: Gitea bietet eine benutzerfreundliche Benutzeroberfläche, mit der Sie Ihren Code einfach verwalten können. Egal, ob Sie ein Programmierer oder ein Nicht-Programmierer sind, Gitea kann Ihnen dabei helfen, Ihre Arbeit effizient zu erledigen.
@@ -31,7 +31,7 @@ Im Vergleich zu ähnlicher Software verfügt Gitea über folgende Funktionen:
 
 Ab Version 1.91 unterstützt Gitea die Funktion "Action". Dies ist eine leistungsstarke Funktion, die Ihren Entwicklungsworkflow automatisiert, z. B. das automatische Erstellen, Testen und Bereitstellen Ihres Codes.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100939541.png "Bild")
+![Alt text](./202306100939541.png "Bild")
 
 ---
 
@@ -49,11 +49,11 @@ Tutorial-Referenz: [30-Sekunden-Installation von Portainer, einem Muss-Have-Tool
 
 Öffnen Sie die File Station und erstellen Sie einen Ordner "Gitea" im Docker-Ordner.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100941410.png "Bild")
+![Alt text](./202306100941410.png "Bild")
 
 ## 4. Stack erstellen
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt text](202306061552130.png "Bild")
 
 ## 5. Code bereitstellen
 
@@ -80,7 +80,7 @@ services:
 
 ## 6. Erfolg
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt text](202306061556495.png "Bild")
 
 ## 6. Verwendung
 
@@ -88,7 +88,7 @@ Greifen Sie über Ihren Browser auf das Programm zu: [ip]:[port]
 
 > Ersetzen Sie "ip" durch die IP-Adresse Ihres NAS (z. B. 192.168.2.32) und "port" durch den in der Konfigurationsdatei definierten Port (z. B. 10011, wenn Sie meinem Tutorial gefolgt sind).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100948705.png "Bild")
+![Alt text](./202306100948705.png "Bild")
 
 ## 7. Erstkonfiguration
 
@@ -96,7 +96,7 @@ Greifen Sie über Ihren Browser auf das Programm zu: [ip]:[port]
 
 SQLite ist für den leichten Gebrauch ausreichend und erfordert keine große Datenbank wie MySQL oder PostgreSQL.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100949012.png "Bild")
+![Alt text](./202306100949012.png "Bild")
 
 - Server-Domain
 
@@ -106,35 +106,35 @@ Server-Domain: Für internen Zugriff nicht ändern, für externen Zugriff durch 
 
 Base URL: Für internen Zugriff nicht ändern, für externen Zugriff durch Domain ersetzen (muss http oder https sein, z. B. https://gitea.nasdaddy.cn).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100954477.png "Bild")
+![Alt text](./202306100954477.png "Bild")
 
 - Andere
 
 Sie müssen die E-Mail nicht konfigurieren, verwenden Sie Ihre eigene.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100957267.png "Bild")
+![Alt text](./202306100957267.png "Bild")
 
 Konfigurieren Sie das Administrator-Konto.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100959307.png "Bild")
+![Alt text](./202306100959307.png "Bild")
 
 - Abschluss
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306100959159.png "Bild")
+![Alt text](./202306100959159.png "Bild")
 
 ## 8. Theme ändern
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101002925.png "Bild")
+![Alt text](./202306101002925.png "Bild")
 
 ## 9. Mein Lieblingsfeature (Mirror Clone)
 
 Mit Giteas Ein-Klick-Migration können Sie Repositories (einschließlich Commits, Branches und Tags) von GitHub und anderen Projekten, an denen ich teilgenommen habe, einfach migrieren.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101004251.png "Bild")
+![Alt text](./202306101004251.png "Bild")
 
 Zum Beispiel für das beliebte Projekt gpt4free kann der Autor das Repository jederzeit aufgrund von Druck schließen. Also habe ich das Repository in meiner privaten Cloud gespiegelt!
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306101006053.png "Bild")
+![Alt text](./202306101006053.png "Bild")
 
 ## Abschließend
 

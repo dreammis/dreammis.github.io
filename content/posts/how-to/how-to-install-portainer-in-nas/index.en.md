@@ -10,15 +10,15 @@ draft: false
 
 😒 Have you ever envied others for being able to build so many fun applications while you struggle with "not knowing how to code"?
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305222015365.gif "Pic")
+![Alt text](202305222015365.gif "Pic")
 
 And their so-called "simple tutorials" are like this:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221850159.gif "Pic")
+![Alt text](202305221850159.gif "Pic")
 
 Have you ever been intimidated by tutorials that are "too complicated"?
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221843307.gif "Pic")
+![Alt text](202305221843307.gif "Pic")
 
 Do you wish to make everything "a little simpler"?
 
@@ -34,7 +34,7 @@ How much trouble do you think this would be? With Portainer, it only takes 2 ste
 
 ## Create a Directory
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221854783.png "Pic")
+![Alt text](202305221854783.png "Pic")
 
 ## Create a Stack
 
@@ -50,7 +50,7 @@ services:
       - 5230:5230
 ```
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221855734.png "Pic")
+![Alt text](202305221855734.png "Pic")
 
 💕**Done!**
 
@@ -85,19 +85,19 @@ In Synology Package Center, search for:
 1. Docker (for Synology versions below 7.2)
 2. Container Manager (for Synology versions 7.2 and above)
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221520122.png "Pic")
+![Alt text](202305221520122.png "Pic")
 
 ## 3. File Station
 
 Open File Station, go to the "docker" folder, and create a "portainer" folder.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221524888.png "Pic")
+![Alt text](202305221524888.png "Pic")
 
 ## 4. Task Scheduler
 
 In Synology "Control Panel", find "Task Scheduler", click on "User-defined script" in "Scheduled Tasks".
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221525216.png "Pic")
+![Alt text](202305221525216.png "Pic")
 
 ## 5. Installation
 
@@ -115,17 +115,17 @@ docker run -d --name=portainer \
 portainer/portainer-ce
 ```
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221525969.png "Pic")
+![Alt text](202305221525969.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221525125.png "Pic")
+![Alt text](202305221525125.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221525244.png "Pic")
+![Alt text](202305221525244.png "Pic")
 
 ## 6. Run the Script
 
 Click on "Run".
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221526280.png "Pic")
+![Alt text](202305221526280.png "Pic")
 
 ## 7. Check if it is completed (optional step)
 
@@ -135,11 +135,11 @@ Two verification methods - choose one
 
 
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221526350.png "Pic")
+![Alt text](202305221526350.png "Pic")
 
 You can also check if Portainer has been successfully pulled in the `docker suite`
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221526399.png "Pic")
+![Alt text](202305221526399.png "Pic")
 
 
 
@@ -147,7 +147,7 @@ You can also check if Portainer has been successfully pulled in the `docker suit
 
 Set a password
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221526832.png "Pic")
+![Alt text](202305221526832.png "Pic")
 
 
 
@@ -156,11 +156,11 @@ Set a password
 1. Initialize environment variables
 2. Set the local IP in the environment variables for easy access (the local IP is the IP address of your local Synology NAS)
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221527432.png "Pic")
+![Alt text](202305221527432.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221527890.png "Pic")
+![Alt text](202305221527890.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221527142.png "Pic")
+![Alt text](202305221527142.png "Pic")
 
 ## 10. Block ads (optional)
 
@@ -168,13 +168,13 @@ What to do with annoying Business upgrade reminders in Portainer?
 
 Use various browser ad blockers to block them
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221528554.png "Pic")
+![Alt text](202305221528554.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305222008586.png "Pic")
+![Alt text](202305222008586.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221528655.png "Pic")
+![Alt text](202305221528655.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305221528751.png "Pic")
+![Alt text](202305221528751.png "Pic")
 
 
 

@@ -10,15 +10,15 @@ draft: false
 
 😒 Hast du jemals andere beneidet, weil sie so viele lustige Anwendungen erstellen können, während du dich mit "nicht wissen, wie man programmiert" herumschlägst?
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305222015365.gif "Bild")
+![Alt-Text](202305222015365.gif "Bild")
 
 Und ihre sogenannten "einfachen Tutorials" sehen so aus:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221850159.gif "Bild")
+![Alt-Text](202305221850159.gif "Bild")
 
 Hast du dich jemals von Tutorials eingeschüchtert gefühlt, die "zu kompliziert" sind?
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221843307.gif "Bild")
+![Alt-Text](202305221843307.gif "Bild")
 
 Wünschst du dir, dass alles "etwas einfacher" wäre?
 
@@ -34,7 +34,7 @@ Wie viel Aufwand denkst du, dass das wäre? Mit Portainer sind es nur 2 Schritte
 
 ## Erstelle ein Verzeichnis
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221854783.png "Bild")
+![Alt-Text](202305221854783.png "Bild")
 
 ## Erstelle einen Stack
 
@@ -50,7 +50,7 @@ services:
       - 5230:5230
 ```
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221855734.png "Bild")
+![Alt-Text](202305221855734.png "Bild")
 
 💕**Fertig!**
 
@@ -85,19 +85,19 @@ Im Synology Package Center suche nach:
 1. Docker (für Synology-Versionen unter 7.2)
 2. Container Manager (für Synology-Versionen 7.2 und höher)
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221520122.png "Bild")
+![Alt-Text](202305221520122.png "Bild")
 
 ## 3. File Station
 
 Öffne die File Station, gehe zum Ordner "docker" und erstelle einen Ordner namens "portainer".
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221524888.png "Bild")
+![Alt-Text](202305221524888.png "Bild")
 
 ## 4. Aufgabenplaner
 
 Im Synology "Control Panel" finde den "Aufgabenplaner" und klicke auf "Benutzerdefiniertes Skript" in "Geplante Aufgaben".
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221525216.png "Bild")
+![Alt-Text](202305221525216.png "Bild")
 
 ## 5. Installation
 
@@ -115,17 +115,17 @@ docker run -d --name=portainer \
 portainer/portainer-ce
 ```
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221525969.png "Bild")
+![Alt-Text](202305221525969.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221525125.png "Bild")
+![Alt-Text](202305221525125.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221525244.png "Bild")
+![Alt-Text](202305221525244.png "Bild")
 
 ## 6. Skript ausführen
 
 Klicke auf "Ausführen".
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221526280.png "Bild")
+![Alt-Text](202305221526280.png "Bild")
 
 ## 7. Überprüfen, ob es abgeschlossen ist (optionaler Schritt)
 
@@ -135,11 +135,11 @@ Zwei Überprüfungsmethoden - wähle eine aus
 
 
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221526350.png "Bild")
+![Alt-Text](202305221526350.png "Bild")
 
 Du kannst auch überprüfen, ob Portainer erfolgreich in der `Docker Suite` abgerufen wurde
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221526399.png "Bild")
+![Alt-Text](202305221526399.png "Bild")
 
 
 
@@ -147,7 +147,7 @@ Du kannst auch überprüfen, ob Portainer erfolgreich in der `Docker Suite` abge
 
 Setze ein Passwort
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221526832.png "Bild")
+![Alt-Text](202305221526832.png "Bild")
 
 
 
@@ -156,11 +156,11 @@ Setze ein Passwort
 1. Initialisiere Umgebungsvariablen
 2. Setze die lokale IP-Adresse in den Umgebungsvariablen für einfachen Zugriff (die lokale IP-Adresse ist die IP-Adresse deines lokalen Synology NAS)
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221527432.png "Bild")
+![Alt-Text](202305221527432.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221527890.png "Bild")
+![Alt-Text](202305221527890.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221527142.png "Bild")
+![Alt-Text](202305221527142.png "Bild")
 
 ## 10. Werbung blockieren (optional)
 
@@ -168,13 +168,13 @@ Was tun mit nervigen Geschäfts-Upgrade-Erinnerungen in Portainer?
 
 Verwende verschiedene Browser-Ad-Blocker, um sie zu blockieren
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221528554.png "Bild")
+![Alt-Text](202305221528554.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305222008586.png "Bild")
+![Alt-Text](202305222008586.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221528655.png "Bild")
+![Alt-Text](202305221528655.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305221528751.png "Bild")
+![Alt-Text](202305221528751.png "Bild")
 
 Herzlichen Glückwunsch, du bist in die brandneue NAS-Welt eingetreten
 

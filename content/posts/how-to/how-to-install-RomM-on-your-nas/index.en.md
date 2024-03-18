@@ -59,31 +59,31 @@ Tutorial reference:
 
 Open File Station and navigate to the docker folder, create a `romm` folder
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345210.png "Pic")
+![Alt text](./202306262345210.png "Pic")
 
 1. Create a `romm` folder under the docker directory.
 2. Under the `romm` folder, create the following subfolders: `database` (I chose SQLite), `resources` (static resources downloaded by RomM, such as covers and descriptions), and `library` (your game directory).
 
 The author provides two supported `directory structures`, and I chose the `first one`:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345528.png "Pic")
+![Alt text](./202306262345528.png "Pic")
 
 ## 4. Create an IGDB Account
 
 1. Register on [Twitch](https://dev.twitch.tv/login).
 2. Enable two-factor authentication, you can use Google Authenticator [enabled](https://www.twitch.tv/settings/security).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345720.png "Pic")
+![Alt text](./202306262345720.png "Pic")
 
 1. Register your Twitch application on this page [Twitch Developer Portal](https://dev.twitch.tv/console/apps/create).
 2. Create a secret key.
 3. Copy the client ID and secret key.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345436.png "Pic")
+![Alt text](./202306262345436.png "Pic")
 
 ## 5. Create a Stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 6. Deploy the Code
 
@@ -115,7 +115,7 @@ services:
 
 ## 7. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 ## 8. Usage
 
@@ -123,31 +123,31 @@ Access the program in your browser: [ip]:[port]
 
 > The IP is the IP address of your NAS (mine is 172.16.23.106), and the port is defined in the configuration file above. If you followed my tutorial, it should be 13280.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346663.png "Pic")
+![Alt text](./202306262346663.png "Pic")
 
 ## 9. Add ROMs
 
 Place ROM files in the directory you set up earlier, following the specified format.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346631.png "Pic")
+![Alt text](./202306262346631.png "Pic")
 
 ## 10. Start scanning
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346339.png "Pic")
+![Alt text](./202306262346339.png "Pic")
 
 If the file names are in the correct format, the covers and descriptions will be scanned automatically.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347274.png "Pic")
+![Alt text](./202306262347274.png "Pic")
 
 If the file names are not in the correct format, manual scanning may be required.
 
 Select a ROM.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347280.png "Pic")
+![Alt text](./202306262347280.png "Pic")
 
 After searching, you can select "Rename Rom" to modify the file name.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347425.png "Pic")
+![Alt text](./202306262347425.png "Pic")
 
 ## 10. Finally, enjoy
 
@@ -155,7 +155,7 @@ When I feel nostalgic and want to play on my 3DS, I can simply download the ROMs
 
 Select multiple files, including DLCs, and download them together.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347828.png "Pic")
+![Alt text](./202306262347828.png "Pic")
 
 ## Finally
 

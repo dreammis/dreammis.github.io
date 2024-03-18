@@ -13,7 +13,7 @@ Do you know how you and your friends share documents, tutorials, notes, or code 
 
 This is a typical use case where you need a dedicated place, a place where you can easily upload, share, view, and manage code. This is why we need to build our own Opengist.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081450369.png "Pic")
+![Alt text](./202306081450369.png "Pic")
 
 ---
 
@@ -23,12 +23,12 @@ Opengist is a self-hosted pastebin powered by Git. It is an online platform wher
 
 - **Create public or hidden documents/code snippets**: You can create public code snippets or snippets that can only be accessed through a link, depending on your needs.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081426720.png "Pic")
+![Alt text](./202306081426720.png "Pic")
 
 - **Clone/Pull/Push code snippets using Git**: You can use familiar Git operations to handle your code snippets.
 - **Revision history**: You can see all the modification records of your code snippets and understand their development process.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081429750.png "Pic")
+![Alt text](./202306081429750.png "Pic")
 
 - **Code highlighting, support for Markdown and CSV**: Your code will be automatically highlighted and supports Markdown and CSV file formats, making your code more readable.
 - **Like/Share code snippets**: You can like other people's code and share your code with others.
@@ -61,11 +61,11 @@ Tutorial reference:
 
 Open File Station and create an `opengist` folder in the docker folder.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081433610.png "Pic")
+![Alt text](./202306081433610.png "Pic")
 
 ## 4. Create Stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deployment
 
@@ -102,7 +102,7 @@ services:
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -116,17 +116,17 @@ Access the program in your browser: [ip]:[port]
 
 ## 8. Register
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081436748.png "Pic")
+![Alt text](./202306081436748.png "Pic")
 
 
 
 ## 9. Create gist
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081445674.png "Pic")
+![Alt text](./202306081445674.png "Pic")
 
 ## 10. Disable registration
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306081445370.png "Pic")
+![Alt text](./202306081445370.png "Pic")
 
 ## Finally
 

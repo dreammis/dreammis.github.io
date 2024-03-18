@@ -19,7 +19,7 @@ Vielleicht suchen Sie wie ich oft nach verschiedenen interessanten und lehrreich
 
 Heute werde ich Ihnen zeigen, wie Sie mit NAS TubeArchivist verwenden können, um Ihre YouTube-Videos offline zu organisieren, zu suchen und anzuschauen.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191504270.png "Bild")
+![Alt text](202306191504270.png "Bild")
 
 
 
@@ -35,29 +35,29 @@ Hier sind die Hauptfunktionen von TubeArchivist:
 
 - **Abonnieren Sie Ihre Lieblings-YouTube-Kanäle (automatische Downloads)**: Geben Sie einfach die URL des Kanals ein, und TubeArchivist abonniert automatisch den Kanal und beginnt mit dem Herunterladen seiner Videos.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191507114.png "Bild")
+![Alt text](202306191507114.png "Bild")
 
 - **Videos herunterladen**: TubeArchivist kann Ihnen helfen, Videos von den von Ihnen abonnierten Kanälen herunterzuladen, sodass Sie sie offline ansehen können.
 - **Leistungsstarke Suchfunktion**: TubeArchivist indiziert Ihre Videosammlung mithilfe der Metadaten von YouTube, sodass Sie sie einfach über die Web-Schnittstelle durchsuchen und organisieren können.
 
 **Nach Titel suchen**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508747.png "Bild")
+![Alt text](202306191508747.png "Bild")
 
 **Inhalt innerhalb des Videos durchsuchen!**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508059.png "Bild")
+![Alt text](202306191508059.png "Bild")
 
 - **Videos abspielen**: TubeArchivist ist nicht nur ein Videoverwaltungstool, sondern auch ein Videoplayer, mit dem Sie Ihre Lieblingsvideos direkt abspielen können.
 - **Verfolgen Sie angesehene und nicht angesehene Videos**: TubeArchivist kann die Videos, die Sie angesehen haben, und diejenigen, die Sie noch nicht angesehen haben, verfolgen und Ihnen bei der besseren Verwaltung Ihrer Sammlung helfen.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191509481.png "Bild")
+![Alt text](202306191509481.png "Bild")
 
 **Automatischer Download von chinesischen Untertiteln**: TubeArchivist lädt automatisch chinesische Untertitel herunter und beseitigt Sprachbarrieren in Ihrem Lernerlebnis.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535010.png "Bild")
+![Alt text](202306191535010.png "Bild")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535070.png "Bild")
+![Alt text](202306191535070.png "Bild")
 
 **Sie können sogar mit Emby Jellyfin integrieren**: TubeArchivist lädt automatisch chinesische Untertitel herunter und beseitigt Sprachbarrieren in Ihrem Lernerlebnis.
 
@@ -80,11 +80,11 @@ Anleitung zur Referenz:
 
 Öffnen Sie den Ordner "docker" in der File Station und erstellen Sie einen Ordner mit dem Namen "TubeArchivist".
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191512612.png "Bild")
+![Alt text](202306191512612.png "Bild")
 
 ## 4. Stack erstellen
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt text](202306061552130.png "Bild")
 
 ## 5. Code bereitstellen
 
@@ -156,7 +156,7 @@ services:
 
 ## 6. Erfolg
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt-Text](202306061556495.png "Bild")
 
 ## 7. Verwendung
 
@@ -164,7 +164,7 @@ Greifen Sie auf das Programm in Ihrem Browser zu: [IP]:[Port]
 
 > Die IP ist die IP Ihres NAS (meine ist 172.16.23.149) und der Port ist in der obigen Konfigurationsdatei definiert. Wenn Sie meiner Anleitung gefolgt sind, ist es 18001.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191524410.png "Bild")
+![Alt-Text](202306191524410.png "Bild")
 
 Der Benutzername und das Passwort sind in der Compose-Datei festgelegt.
 
@@ -178,7 +178,7 @@ Passwort: verysecret
 
 **Download-Größe festlegen**
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191527815.png "Bild")
+![Alt-Text](202306191527815.png "Bild")
 
 Ich habe eine relativ geringe Qualität festgelegt:
 
@@ -196,7 +196,7 @@ zh-CN
 
 Die meisten YouTube-Videos sind hochwertige fremdsprachige Ressourcen, und YouTube bietet auch Voiceover- und Übersetzungsfunktionen für Untertitel an. Dieser Schritt dient dazu, diesen Prozess einzurichten.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191530402.png "Bild")
+![Alt-Text](202306191530402.png "Bild")
 
 Einstellung für den Untertitel-Download: Untertitelsprache festlegen
 
@@ -216,29 +216,29 @@ Indizieren und Untertitel durchsuchbar machen: Diese Funktion ist sehr leistungs
 enable
 ```
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191532814.png "Bild")
+![Alt-Text](202306191532814.png "Bild")
 
 ## 10. Verwendung
 
 Downloads herunterladen:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191546349.png "Bild")
+![Alt-Text](202306191546349.png "Bild")
 
 Mit dem Herunterladen beginnen:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191547537.png "Bild")
+![Alt-Text](202306191547537.png "Bild")
 
 Download abgeschlossen:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191548424.png "Bild")
+![Alt-Text](202306191548424.png "Bild")
 
 Online abspielen:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191549205.png "Bild")
+![Alt-Text](202306191549205.png "Bild")
 
 > Da der Online-Player keine Untertitel unterstützt, können Sie zum Anzeigen von Untertiteln andere Player verwenden. Wenn Sie Emby, Jellyfin oder Plex haben, können sie automatisch verknüpft werden.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191550573.png "Bild")
+![Alt-Text](202306191550573.png "Bild")
 
 ## Browser-Erweiterung (optional)
 
@@ -250,15 +250,15 @@ TubeArchivist Companion
 
 **Holen Sie sich den Schlüssel**
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191552629.png "Bild")
+![Alt-Text](202306191552629.png "Bild")
 
 **Konfigurieren Sie die Erweiterung**
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191552826.png "Bild")
+![Alt-Text](202306191552826.png "Bild")
 
 **Verwenden Sie die Erweiterung**
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306191553113.png "Bild")
+![Alt-Text](202306191553113.png "Bild")
 
 ## Abschließend
 

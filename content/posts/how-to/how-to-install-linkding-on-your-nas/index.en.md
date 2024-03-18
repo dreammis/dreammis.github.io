@@ -98,7 +98,7 @@ Open File Station and create a `linkding` folder in the docker folder
 
 ## 4. Create stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deploy the code
 
@@ -125,7 +125,7 @@ services:
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 

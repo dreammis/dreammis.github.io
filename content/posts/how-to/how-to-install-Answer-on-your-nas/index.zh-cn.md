@@ -39,7 +39,7 @@ Answer是一个开源的知识型社区软件。通过它，你可以快速搭�
 6. **碎碎念** 当然你可以完全把他当作一个碎碎念的地方(我就是这样用的)
 7. **markdown** 支持
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511879.png "Pic")
+![Alt text](202306161511879.png "Pic")
 
 
 
@@ -61,11 +61,11 @@ Answer是一个开源的知识型社区软件。通过它，你可以快速搭�
 
 File Station 打开docker 文件夹，创建`answer`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511165.png "Pic")
+![Alt text](202306161511165.png "Pic")
 
 ## 4. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5.  部署代码
 
@@ -86,11 +86,11 @@ services:
 3. edditor输入：上面代码
 4. 点击deploy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511349.png "Pic")
+![Alt text](202306161511349.png "Pic")
 
 ## 6. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -100,7 +100,7 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.106），端口为上面配置文件定义，如果你按照我的教程，则是9080
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161512990.png "Pic")
+![Alt text](202306161512990.png "Pic")
 
 ## 8. 配置
 
@@ -108,17 +108,17 @@ services:
 
 使用sqlite即可，如果公司使用，建议mysql，pg这样的
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306301702433.png "Pic")
+![Alt text](./202306301702433.png "Pic")
 
 
 
 下一步
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161513642.png "Pic")
+![Alt text](202306161513642.png "Pic")
 
 基本配置
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161515259.png "Pic")
+![Alt text](202306161515259.png "Pic")
 
 
 
@@ -126,29 +126,29 @@ services:
 
 新建问题（支持markdown）：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516244.png "Pic")
+![Alt text](202306161516244.png "Pic")
 
 - 列表页：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516186.png "Pic")
+![Alt text](202306161516186.png "Pic")
 
 
 
 - 详情页
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516294.png "Pic")
+![Alt text](202306161516294.png "Pic")
 
 
 
 ### 设置主题
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161518887.png "Pic")
+![Alt text](202306161518887.png "Pic")
 
 
 
 ### 后台管理
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161518719.png "Pic")
+![Alt text](202306161518719.png "Pic")
 
 
 

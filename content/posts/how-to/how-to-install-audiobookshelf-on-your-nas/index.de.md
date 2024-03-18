@@ -6,8 +6,8 @@ categories:
 draft: false
 toc: true
 description: Möchten Sie ein All-in-One-Familienleseerlebnis erreichen? Dieser Artikel zeigt Ihnen detailliert, wie Sie einen Audiobookshelf-Server auf Ihrem NAS bereitstellen können, um unbegrenzte eBooks, Hörbücher und Podcasts zu verwalten, den Fortschritt zu synchronisieren, auf verschiedenen Geräten zu hören und zu lesen - ein ultimatives Erlebnis, Schritt-für-Schritt-Anleitung, leicht verständlich!
-featuredImage: "https://img-nasdaddy.liuxingoo.cn/202306290221993.png"
-featuredImagePreview: "https://img-nasdaddy.liuxingoo.cn/202306290221993.png"
+featuredImage: "202306290221993.png"
+featuredImagePreview: "202306290221993.png"
 
 ---
 Möchten Sie ein All-in-One-Familienleseerlebnis erreichen? Dieser Artikel zeigt Ihnen detailliert, wie Sie einen Audiobookshelf-Server auf Ihrem NAS bereitstellen können, um unbegrenzte eBooks, Hörbücher und Podcasts zu verwalten, den Fortschritt zu synchronisieren, auf verschiedenen Geräten zu hören und zu lesen - ein ultimatives Erlebnis, Schritt-für-Schritt-Anleitung, leicht verständlich!
@@ -29,12 +29,12 @@ Das ist Audiobookshelf, ein selbstgebauter Hörbuch- und Podcast-Server.
 
 
 
-![DemoLibrary](https://img-nasdaddy.liuxingoo.cn/202306290221993.png)
+![DemoLibrary](./202306290221993.png)
 
 
 Und es gibt auch iOS- und Android-Telefonclients ~
 
-![image-20230629015721119](https://img-nasdaddy.liuxingoo.cn/202306290157488.png)
+![image-20230629015721119](./202306290157488.png)
 
 
 
@@ -59,7 +59,7 @@ Audiobookshelf ist nicht nur eine Hörbuch-Bibliothek, sondern bietet auch beein
 
 Das sind alle Funktionen von Audiobookshelf, als nächstes werden wir mit dem Aufbau beginnen.
 
-![image-20230629020002376](https://img-nasdaddy.liuxingoo.cn/202306290200781.png)
+![image-20230629020002376](./202306290200781.png)
 
 
 ---
@@ -92,7 +92,7 @@ Siehe Anleitung:
    - config
    - metadata
 
-![image-20230629005551306](https://img-nasdaddy.liuxingoo.cn/202306290055363.png)
+![image-20230629005551306](./202306290055363.png)
 
 
 
@@ -135,40 +135,40 @@ Greifen Sie über den Browser auf die App zu: [IP]:[Port]
 
 Legen Sie ein Passwort fest
 
-![image-20230629004229175](https://img-nasdaddy.liuxingoo.cn/202306290042298.png)
+![image-20230629004229175](./202306290042298.png)
 
 ## 8. Hörbücher/eBooks
 
 
 ### Sprache auf Deutsch einstellen
 
-![image-20230629004449436](https://img-nasdaddy.liuxingoo.cn/202306290044513.png)
+![image-20230629004449436](./202306290044513.png)
 
 ### Medienbibliothek einrichten
 
-![image-20230629004633451](https://img-nasdaddy.liuxingoo.cn/202306290046519.png)
+![image-20230629004633451](./202306290046519.png)
 
 
 
 ### Buch oder Hörbuch einrichten
 
 
-![image-20230629004757987](https://img-nasdaddy.liuxingoo.cn/202306290047056.png)
+![image-20230629004757987](./202306290047056.png)
 
 ### Podcast einrichten
 1. Medientyp: Podcast   
 2. Medienbibliothek (Benutzerdefiniert)
 3. Ordner (audiobooks)
 
-![image-20230629004938177](https://img-nasdaddy.liuxingoo.cn/202306290049245.png)
+![image-20230629004938177](./202306290049245.png)
 
 
 
 ### Startseite schön gestalten (Holzbücherregal-Design)
 
-![image-20230629010529098](https://img-nasdaddy.liuxingoo.cn/202306290105170.png)
+![image-20230629010529098](./202306290105170.png)
 
-![image-20230629010547244](https://img-nasdaddy.liuxingoo.cn/202306290105460.png)
+![image-20230629010547244](./202306290105460.png)
 
 
 
@@ -176,19 +176,19 @@ Legen Sie ein Passwort fest
 
 Kopieren Sie lokale Ressourcen in den Hörbuchordner
 
-![image-20230629005950319](https://img-nasdaddy.liuxingoo.cn/202306290059370.png)
+![image-20230629005950319](./202306290059370.png)
 
 
 
 ### Hochladen lokaler Ressourcen über die Web-Oberfläche (Einzelupload)
 
-![image-20230629010136250](https://img-nasdaddy.liuxingoo.cn/202306290101322.png)
+![image-20230629010136250](./202306290101322.png)
 
 ### Starten Sie den Scan
 
 Lassen Sie das System zuerst die Regeln für die Bücher abgleichen
 
-![image-20230629010358667](https://img-nasdaddy.liuxingoo.cn/202306290103736.png)
+![image-20230629010358667](./202306290103736.png)
 
 
 ### Manueller Scan
@@ -197,29 +197,29 @@ Da die Benennung nicht standardisiert ist oder die entsprechenden Bücher nicht 
 
 1. Wählen Sie ein Buch, bearbeiten Sie es
 
-![image-20230629010703916](https://img-nasdaddy.liuxingoo.cn/202306290107134.png)
+![image-20230629010703916](./202306290107134.png)
 
 2. Im Übereinstimmungsfeld wird durch Korrektur des Titels die Buchinformation gefunden.
 
-![image-20230629010906410](https://img-nasdaddy.liuxingoo.cn/202306290109557.png)
+![image-20230629010906410](./202306290109557.png)
 
 3. Nach Bestätigung aller korrekten Informationen absenden.
 
-![image-20230629010943208](https://img-nasdaddy.liuxingoo.cn/202306290109255.png)
+![image-20230629010943208](./202306290109255.png)
 
-![image-20230629011217713](https://img-nasdaddy.liuxingoo.cn/202306290112772.png)
+![image-20230629011217713](./202306290112772.png)
 
 
 
 4. Noch nicht perfekt, da der Scanner, den wir verwenden, `Google Books` ist, der chinesische Verlagsbücher nicht vollständig unterstützt. Mein OCD-Level steigt! Verwenden Sie den englischen Namen zur Suche.
 
-![image-20230629011359764](https://img-nasdaddy.liuxingoo.cn/202306290113837.png)
+![image-20230629011359764](./202306290113837.png)
 
 Tatsächlich sind die Zusammenfassungen verfügbar.
 
 Das macht mich komfortabler.
 
-![image-20230629011448260](https://img-nasdaddy.liuxingoo.cn/202306290114353.png)
+![image-20230629011448260](./202306290114353.png)
 
 Obwohl es wie Englisch aussieht, beeinflusst es mich nicht. Ich versuche immer, meine Umgebung auf Englisch einzustellen (um mein Englisch zu verbessern).
 
@@ -231,33 +231,33 @@ Ich bin schon immer ein Podcast-Liebhaber und genieße die Realität und Tiefe v
 
 Die Such-, automatische Abonnement- und Download-Funktionen von audiobooksshelf machen mich sehr glücklich. Mit ihr kann ich meinen ursprünglichen Podcast-Downloader podgrab ersetzen.
 
-![image-20230629011906195](https://img-nasdaddy.liuxingoo.cn/202306290119307.png)
+![image-20230629011906195](./202306290119307.png)
 
 
 
 Ohne viel Aufhebens wechseln wir zuerst die Medienbibliothek und suchen nach Bloggern, die uns gefallen.
 
-![image-20230629012044916](https://img-nasdaddy.liuxingoo.cn/202306290120018.png)
+![image-20230629012044916](./202306290120018.png)
 
 Absenden und wenn Sie möchten, dass die Episoden automatisch heruntergeladen werden, können Sie das Kästchen für den automatischen Download aktivieren.
 
-![image-20230629012210097](https://img-nasdaddy.liuxingoo.cn/202306290122147.png)
+![image-20230629012210097](./202306290122147.png)
 
 Suchen Sie nach den Episoden, die Sie hören möchten.
 
-![image-20230629012311314](https://img-nasdaddy.liuxingoo.cn/202306290123386.png)
+![image-20230629012311314](./202306290123386.png)
 
 
 Beginnen Sie mit der Wiedergabe, nachdem der Download abgeschlossen ist.
 
-![image-20230629012744333](https://img-nasdaddy.liuxingoo.cn/202306290127443.png)
+![image-20230629012744333](./202306290127443.png)
 
 
 > Es kann zu Download-Fehlern aufgrund von Netzwerkproblemen kommen.
 
 Da die Ressourcenbibliothek iTunes ist, gibt es auch viele hochwertige chinesische Podcasts zur Auswahl.
 
-![image-20230629012914545](https://img-nasdaddy.liuxingoo.cn/202306290129616.png)
+![image-20230629012914545](./202306290129616.png)
 
 
 
@@ -265,23 +265,23 @@ Da die Ressourcenbibliothek iTunes ist, gibt es auch viele hochwertige chinesisc
 
 Die offiziellen Android- und iOS-Clients sind verfügbar (auf ihrer eigenen Website), für iOS ist eine Teilnahme an TestFlight erforderlich.
 
-![image-20230629014326366](https://img-nasdaddy.liuxingoo.cn/202306290143562.png)
+![image-20230629014326366](./202306290143562.png)
 
 
 
 Geben Sie das Passwort und den Benutzernamen ein, wenn Sie herunterladen, verbinden Sie sich mit Ihrer IP des NAS-Servers.
 
-![image-20230629014417787](https://img-nasdaddy.liuxingoo.cn/202306290144153.png)
+![image-20230629014417787](./202306290144153.png)
 
 
 
-![image-20230629014425440](https://img-nasdaddy.liuxingoo.cn/202306290144781.png)
+![image-20230629014425440](./202306290144781.png)
 
 
 
 PodCast
 
-![image-20230629014437850](https://img-nasdaddy.liuxingoo.cn/202306290144110.png)
+![image-20230629014437850](./202306290144110.png)
 
 
 
@@ -291,7 +291,7 @@ PodCast
 
 Wenn Sie Ihren Lesefortschritt verfolgen möchten, sollten die von Ihnen importierten Bücher nicht im mobi- oder awz3-Format (Amazon-Format) sein.
 
-![image-20230629014650463](https://img-nasdaddy.liuxingoo.cn/202306290146518.png)
+![image-20230629014650463](./202306290146518.png)
 
 ## Schließlich
 

@@ -12,7 +12,7 @@ lightgallery: true
 
 There are countless note-taking apps, such as Apple Notes, Evernote, Obsidian, Notion... even WeChat's file transfer assistant.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060920807.png "Pic")
+![Alt text](202306060920807.png "Pic")
 
 They all have their own advantages and disadvantages:
 
@@ -33,28 +33,28 @@ Today's protagonist is `Flatnotes`, which is simple, focused, privately hosted, 
 
   It provides both raw Markdown editing mode and WYSIWYG (What You See Is What You Get) Markdown editing mode.
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060923631.png "Pic")
+  ![Alt text](202306060923631.png "Pic")
 
 
   ### 2. Advanced Search
 
   With Flatnotes' `advanced search` feature, you can easily find your notes without manually searching through a large number of notes.
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060924617.png "Pic")
+  ![Alt text](202306060924617.png "Pic")
 
   ### 3. Custom Tags
 
   With the tagging feature, you can better organize and categorize your notes. Simply add one or more `tags` to easily find specific notes.
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060929248.png "Pic")
+  ![Alt text](202306060929248.png "Pic")
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060929310.png "Pic")
+  ![Alt text](202306060929310.png "Pic")
 
   ### 4. Light/Dark Themes
 
   Flatnotes offers both `light and dark themes` to suit your preferences and keep your eyes comfortable even after long-term use.
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060930206.png "Pic")
+  ![Alt text](202306060930206.png "Pic")
 
 ---
 
@@ -73,7 +73,7 @@ Tutorial reference:
 
 Open File Station and create a `flatnotes` folder in the Docker folder.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060936127.png "Pic")
+![Alt text](202306060936127.png "Pic")
 
 ## 3. Create Stack
 
@@ -119,11 +119,11 @@ services:
 
 > The IP address for your NAS is the IP address where your NAS is located (in this case, mine is 172.16.23.106), and the port is defined in the configuration file above. If you followed my tutorial, it would be 13326.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060944832.png "Pic")
+![Alt text](202306060944832.png "Pic")
 
 ## 7. Enjoy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060944583.png "Pic")
+![Alt text](202306060944583.png "Pic")
 
 ## Finally
 

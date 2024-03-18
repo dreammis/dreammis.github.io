@@ -13,7 +13,7 @@ Wir haben alle die Frustration erlebt, sich mit einem Stapel PDF-Dokumente ausei
 
 ---
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121301570.png "Bild")
+![Alt-Text](202306121301570.png "Bild")
 
 ## Vorstellung von Stirling-PDF
 
@@ -23,7 +23,7 @@ Alle Dateien und PDFs existieren nur auf der Client-Seite und alle heruntergelad
 
 > Sie müssen sich keine Sorgen machen, dass dieser Service zu viel Platz einnimmt. Es ist der einfachste und platzsparendste PDF-Assistent, den Sie finden können.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121302070.gif "Bild")
+![Alt-Text](202306121302070.gif "Bild")
 
 #### Hauptfunktionen:
 
@@ -61,11 +61,11 @@ Anleitung zur Referenz:
 
 Öffnen Sie die File Station und erstellen Sie einen Ordner mit dem Namen `stirling-pdf` im Docker-Ordner.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121329615.png "Bild")
+![Alt-Text](202306121329615.png "Bild")
 
 ## 4. Stack erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt-Text](202306061552130.png "Bild")
 
 ## 5. Code bereitstellen
 
@@ -91,11 +91,11 @@ services:
 3. Geben Sie den obigen Code in den Editor ein.
 4. Klicken Sie auf Bereitstellen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121254282.png "Bild")
+![Alt-Text](202306121254282.png "Bild")
 
 ## 6. Erfolg
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt-Text](202306061556495.png "Bild")
 
 ## 7. Verwendung
 
@@ -103,21 +103,21 @@ Greifen Sie über Ihren Browser auf das Programm zu: [ip]:[port]
 
 > Ersetzen Sie `[ip]` durch die IP-Adresse Ihres NAS (meine ist hier 172.16.23.106) und `[port]` durch den in der Konfigurationsdatei definierten Port. Wenn Sie meiner Anleitung gefolgt sind, wäre es 13260.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121255093.png "Bild")
+![Alt-Text](202306121255093.png "Bild")
 
 ## 8. Unterstützung für OCR in Chinesisch
 
 Stirling-PDF verfügt über eine sehr leistungsstarke OCR-Funktion.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121320624.gif "Bild")
+![Alt-Text](202306121320624.gif "Bild")
 
 Durch Anwendung von OCR auf die Bilder im PDF kann der Text extrahiert werden, genau wie hier:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121321938.png "Bild")
+![Alt-Text](202306121321938.png "Bild")
 
 Standardmäßig verwendet OCR die englische Zeichenbibliothek. Wenn wir Chinesisch unterstützen möchten, müssen wir das chinesische Trainingspaket selbst herunterladen:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121322707.png "Bild")
+![Alt-Text](202306121322707.png "Bild")
 
 1. Download-Link:
 
@@ -128,11 +128,11 @@ Standardmäßig verwendet OCR die englische Zeichenbibliothek. Wenn wir Chinesis
    - normal (größer, umfassender, langsamere Erkennungsgeschwindigkeit)
    - fast (kleiner, schlanker, schnellere Erkennungsgeschwindigkeit)
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121340441.png "Bild")
+![Alt-Text](202306121340441.png "Bild")
 
 3. Legen Sie die Trainingsdateien an folgendem Ort ab:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306121331819.png "Bild")
+![Alt-Text](202306121331819.png "Bild")
 
 ## Abschließend
 

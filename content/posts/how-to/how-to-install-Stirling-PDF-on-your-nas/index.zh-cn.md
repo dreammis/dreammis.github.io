@@ -13,7 +13,7 @@ toc: true
 
 ---
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121301570.png "Pic")
+![Alt text](202306121301570.png "Pic")
 
 ## 介绍Stirling-PDF
 
@@ -23,7 +23,7 @@ Stirling-PDF 是一个强大的本地托管的基于Web的PDF操作工具，通�
 
 >  不需要担心这个服务越来越大，它是你`最省心最不占地方的PDF助手
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121302070.gif "Pic")
+![Alt text](202306121302070.gif "Pic")
 
 
 
@@ -64,11 +64,11 @@ Stirling-PDF 是一个强大的本地托管的基于Web的PDF操作工具，通�
 
 File Station 打开docker 文件夹，创建`stirling-pdf`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121329615.png "Pic")
+![Alt text](202306121329615.png "Pic")
 
 ## 4. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5.  部署代码
 
@@ -94,11 +94,11 @@ services:
 3. edditor输入：上面代码
 4. 点击deploy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121254282.png "Pic")
+![Alt text](202306121254282.png "Pic")
 
 ## 6. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -108,19 +108,19 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.106），端口为上面配置文件定义，如果你按照我的教程，则是13260
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121255093.png "Pic")
+![Alt text](202306121255093.png "Pic")
 
 ## 8. OCR中文支持
 
 Stiring-PDF有非常强大的OCR功能
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121320624.gif "Pic")
+![Alt text](202306121320624.gif "Pic")
 
 
 
 将pdf中的图像运用ocr，将文本提取，就像
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121321938.png "Pic")
+![Alt text](202306121321938.png "Pic")
 
 
 
@@ -128,7 +128,7 @@ Stiring-PDF有非常强大的OCR功能
 
 OCR，默认是英语字库，我们想要支持中文，就需要自行下载中文的训练包：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121322707.png "Pic")
+![Alt text](202306121322707.png "Pic")
 
 
 
@@ -141,11 +141,11 @@ stirling-pdf-traindata：[提取码：xztp](https://pan.baidu.com/s/1_LguqxLBqWx
 3. normal（更大，更全，识别速度慢）
 4. fast（更小，更精简，识别速度快）
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121340441.png "Pic")
+![Alt text](202306121340441.png "Pic")
 
 3. 将训练文件放入
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306121331819.png "Pic")
+![Alt text](202306121331819.png "Pic")
 
 
 

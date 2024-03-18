@@ -98,7 +98,7 @@ Nehmen Sie als nächstes Portainer als Beispiel
 
 ## 4. Stack erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt-Text](202306061552130.png "Bild")
 
 ## 5. Code bereitstellen
 
@@ -125,7 +125,7 @@ services:
 
 ## 6. Erfolg
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt-Text](202306061556495.png "Bild")
 
 
 

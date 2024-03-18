@@ -12,7 +12,7 @@ lightgallery: true
 
 笔记软件千千万，apple note, 印象笔记，obsidian，notion...甚至微信的文件传输助手
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060920807.png "Pic")
+![Alt text](202306060920807.png "Pic")
 
 他们或多或少都有很多缺点，要不需要
 
@@ -33,28 +33,28 @@ lightgallery: true
 
   它提供了原始Markdown编辑模式和所见即所得（WYSIWYG）的Markdown编辑模式。
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060923631.png "Pic")
+  ![Alt text](202306060923631.png "Pic")
 
 
   ### 2. 高级搜索
 
   通过Flatnotes的`高级搜索`功能，你可以轻松找到你的笔记，不再需要在大量的笔记中手动寻找。
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060924617.png "Pic")
+  ![Alt text](202306060924617.png "Pic")
 
   ### 3. 自定义tag
 
   通过标签功能，你可以更好地组织和分类你的笔记。只需添加一个或多个`标签`，就可以轻松找到特定的笔记。
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060929248.png "Pic")
+  ![Alt text](202306060929248.png "Pic")
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060929310.png "Pic")
+  ![Alt text](202306060929310.png "Pic")
 
   ### 4. Light/dark 主题
 
   根据你的喜好，Flatnotes提供了`亮色和暗色主题`，让你的眼睛在长时间使用后也能保持舒适。
 
-  ![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060930206.png "Pic")
+  ![Alt text](202306060930206.png "Pic")
 
 ---
 
@@ -73,7 +73,7 @@ lightgallery: true
 
 File Station 打开docker 文件夹，创建`flatnotes`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060936127.png "Pic")
+![Alt text](202306060936127.png "Pic")
 
 ## 3. 创建stack
 
@@ -119,11 +119,11 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.106），端口为上面配置文件定义，如果你按照我的教程，则是13326
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060944832.png "Pic")
+![Alt text](202306060944832.png "Pic")
 
 ## 7. Enjoy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306060944583.png "Pic")
+![Alt text](202306060944583.png "Pic")
 
 ## 最后
 

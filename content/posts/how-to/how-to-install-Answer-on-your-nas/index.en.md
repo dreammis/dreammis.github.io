@@ -16,7 +16,7 @@ Perhaps you need a platform for discussion, documenting and resolving questions,
 
 Today, we will create a Zhihu-like platform -- Answer -- on your NAS.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306301653674.png "Pic")
+![Alt text](./202306301653674.png "Pic")
 
 ---
 
@@ -34,7 +34,7 @@ Answer is an open-source knowledge-based community software. With it, you can sw
 6. **Random Thoughts**: Of course, you can completely treat it as a place for random thoughts (which is how I use it).
 7. **Markdown Support**.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511879.png "Pic")
+![Alt text](202306161511879.png "Pic")
 
 ---
 
@@ -53,11 +53,11 @@ Tutorial reference:
 
 Open the docker folder in File Station and create the `answer` folder
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511165.png "Pic")
+![Alt text](202306161511165.png "Pic")
 
 ## 4. Create a stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deploy the code
 
@@ -78,11 +78,11 @@ services:
 3. Enter the above code in the editor
 4. Click deploy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161511349.png "Pic")
+![Alt text](202306161511349.png "Pic")
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 ## 7. Usage
 
@@ -90,7 +90,7 @@ Enter the program in the browser: [ip]:[port]
 
 > The IP is the one of your NAS (mine is 172.16.23.106 here), and the port is defined in the configuration file above. If you follow my tutorial, it's 9080.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161512990.png "Pic")
+![Alt text](202306161512990.png "Pic")
 
 ## 8. Configuration
 
@@ -98,37 +98,37 @@ Enter the program in the browser: [ip]:[port]
 
 You can use sqlite. If for company use, it's recommended to use MySQL, pg, etc.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306301702433.png "Pic")
+![Alt text](./202306301702433.png "Pic")
 
 Next step
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161513642.png "Pic")
+![Alt text](202306161513642.png "Pic")
 
 Basic configuration
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161515259.png "Pic")
+![Alt text](202306161515259.png "Pic")
 
 ## 9. Usage
 
 Create a new question (supports markdown):
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516244.png "Pic")
+![Alt text](202306161516244.png "Pic")
 
 - List page:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516186.png "Pic")
+![Alt text](202306161516186.png "Pic")
 
 - Detail page
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161516294.png "Pic")
+![Alt text](202306161516294.png "Pic")
 
 ### Set Theme
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161518887.png "Pic")
+![Alt text](202306161518887.png "Pic")
 
 ### Backend Management
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306161518719.png "Pic")
+![Alt text](202306161518719.png "Pic")
 
 ## Finally
 

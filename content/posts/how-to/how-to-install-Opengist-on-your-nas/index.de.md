@@ -13,7 +13,7 @@ Wissen Sie, wie Sie und Ihre Freunde Dokumente, Tutorials, Notizen oder Code-Sch
 
 Dies ist ein typischer Anwendungsfall, bei dem Sie einen dedizierten Ort benötigen, einen Ort, an dem Sie Code einfach hochladen, teilen, anzeigen und verwalten können. Deshalb müssen wir unsere eigene Opengist erstellen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081450369.png "Bild")
+![Alt-Text](./202306081450369.png "Bild")
 
 ---
 
@@ -23,12 +23,12 @@ Opengist ist ein selbst gehostetes Pastebin, das von Git unterstützt wird. Es i
 
 - **Öffentliche oder versteckte Dokumente/Code-Schnipsel erstellen**: Sie können öffentliche Code-Schnipsel erstellen oder Schnipsel, die nur über einen Link zugänglich sind, je nach Bedarf.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081426720.png "Bild")
+![Alt-Text](./202306081426720.png "Bild")
 
 - **Code-Schnipsel mit Git klonen/ziehen/pushen**: Sie können vertraute Git-Operationen verwenden, um Ihre Code-Schnipsel zu verwalten.
 - **Versionsverlauf**: Sie können alle Änderungsprotokolle Ihrer Code-Schnipsel einsehen und deren Entwicklungsprozess nachvollziehen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081429750.png "Bild")
+![Alt-Text](./202306081429750.png "Bild")
 
 - **Code-Hervorhebung, Unterstützung für Markdown und CSV**: Ihr Code wird automatisch hervorgehoben und unterstützt die Dateiformate Markdown und CSV, um Ihren Code besser lesbar zu machen.
 - **Code-Schnipsel liken/teilen**: Sie können den Code anderer Personen liken und Ihren Code mit anderen teilen.
@@ -61,11 +61,11 @@ Anleitung zur Referenz:
 
 Öffnen Sie die File Station und erstellen Sie einen Ordner namens `opengist` im Docker-Ordner.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081433610.png "Bild")
+![Alt-Text](./202306081433610.png "Bild")
 
 ## 4. Stack erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt-Text](202306061552130.png "Bild")
 
 ## 5. Bereitstellung
 
@@ -100,7 +100,7 @@ services:
 
 ## 6. Erfolg
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt-Text](202306061556495.png "Bild")
 
 
 
@@ -114,17 +114,17 @@ Greifen Sie über Ihren Browser auf das Programm zu: [IP]:[Port]
 
 ## 8. Registrierung
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081436748.png "Bild")
+![Alt-Text](./202306081436748.png "Bild")
 
 
 
 ## 9. Gist erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081445674.png "Bild")
+![Alt-Text](./202306081445674.png "Bild")
 
 ## 10. Registrierung deaktivieren
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/202306081445370.png "Bild")
+![Alt-Text](./202306081445370.png "Bild")
 
 ## Abschließend
 

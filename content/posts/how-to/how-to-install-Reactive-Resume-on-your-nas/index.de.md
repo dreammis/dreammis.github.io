@@ -13,19 +13,19 @@ Ein Lebenslauf spielt eine entscheidende Rolle bei der Jobsuche, der Bewerbung f
 
 Viele Berufstätige haben möglicherweise die Frustration erlebt, hart an einem Lebenslauf zu arbeiten, nur um von der Personalabteilung aufgrund von Formatierungs- oder Vorlagenproblemen abgelehnt zu werden.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141253235.gif "Bild")
+![Alt-Text](202306141253235.gif "Bild")
 
 Wie können Sie also einen professionellen und ansprechenden Lebenslauf erstellen?
 
 In der heutigen Anleitung werde ich Ihnen dabei helfen, einen Service aufzubauen, mit dem Sie Ihren Lebenslauf einfach erstellen, aktualisieren und teilen können: Reactive-Resume.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141252179.png "Bild")
+![Alt-Text](202306141252179.png "Bild")
 
 Warum müssen wir unseren eigenen Lebenslauf-Generator erstellen? Es gibt zwei Hauptgründe:
 
 - Er kann Ihren individuellen Lebenslauf-Anforderungen gerecht werden, sodass Sie Layouts frei anpassen, Farben und Vorlagen auswählen und sogar Lebensläufe im Dark Mode erstellen können.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141254504.png "Bild")
+![Alt-Text](202306141254504.png "Bild")
 
 - Keine Werbung, keine Benutzer-Tracking, um die Integrität und Privatsphäre Ihrer Daten in größtmöglichem Umfang zu gewährleisten.
 
@@ -58,11 +58,11 @@ Anleitung: [30-Sekunden-Installation von Portainer, einem unverzichtbaren Tool f
 
 Öffnen Sie die File Station und erstellen Sie einen Ordner `resume_data` im Docker-Ordner.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141256268.png "Bild")
+![Alt-Text](202306141256268.png "Bild")
 
 ## 4. Stack erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Bild")
+![Alt-Text](202306061552130.png "Bild")
 
 ## 5. Bereitstellung
 
@@ -129,11 +129,11 @@ services:
 
 > Hinweis: Ersetzen Sie PUBLIC_URL und PUBLIC_SERVER_URL durch Ihre interne IP-Adresse, z.B. 192.168.1.32:13000, oder Domain-Namen (öffentlich)
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141300579.png "Bild")
+![Alt-Text](202306141300579.png "Bild")
 
 ## 6. Erfolg
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Bild")
+![Alt-Text](202306061556495.png "Bild")
 
 ## 7. Verwendung
 
@@ -141,13 +141,13 @@ services:
 
 > Ersetzen Sie "IP" durch die IP-Adresse Ihres NAS (in diesem Fall ist meine 172.16.23.106) und "Port" durch den in der Konfigurationsdatei definierten Port (wenn Sie meiner Anleitung gefolgt sind, wäre es 13000)
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141307218.png "Bild")
+![Alt-Text](202306141307218.png "Bild")
 
 ## 8. Registrierung
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141302503.png "Bild")
+![Alt-Text](202306141302503.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141302865.png "Bild")
+![Alt-Text](202306141302865.png "Bild")
 
 ## 9. Lebenslauf erstellen
 
@@ -156,25 +156,25 @@ Zwei Möglichkeiten:
 1. Importieren aus JSON
 2. Neu erstellen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141308151.png "Bild")
+![Alt-Text](202306141308151.png "Bild")
 
 ## 10. Lebenslauf bearbeiten
 
 ### Frei bearbeiten, Modulnamen ändern:
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141311943.png "Bild")
+![Alt-Text](202306141311943.png "Bild")
 
 ### Exportieren und teilen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141310799.png "Bild")
+![Alt-Text](202306141310799.png "Bild")
 
 ### Layout ändern und individuell anpassen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141311553.png "Bild")
+![Alt-Text](202306141311553.png "Bild")
 
 ### Auswahl aus mehreren Vorlagen
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306141313755.png "Bild")
+![Alt-Text](202306141313755.png "Bild")
 
 ## Schließlich
 

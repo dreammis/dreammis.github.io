@@ -19,7 +19,7 @@ Perhaps like me, you often search for various interesting and educational videos
 
 Today, I will introduce how to use NAS to build TubeArchivist, helping you organize, search, and watch your YouTube videos offline.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191504270.png "Pic")
+![Alt text](202306191504270.png "Pic")
 
 
 
@@ -35,29 +35,29 @@ Here are the main features of TubeArchivist:
 
 - **Subscribe to your favorite YouTube channels (automatic downloads)**: Simply enter the URL of the channel, and TubeArchivist will automatically subscribe to the channel and start downloading its videos.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191507114.png "Pic")
+![Alt text](202306191507114.png "Pic")
 
 - **Download videos**: TubeArchivist can help you download videos from the channels you subscribe to, so you can watch them offline.
 - **Powerful search function**: TubeArchivist indexes your video collection using YouTube's metadata, allowing you to easily search and organize them through the web interface.
 
 **Search by title**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508747.png "Pic")
+![Alt text](202306191508747.png "Pic")
 
 **Search within video content!**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508059.png "Pic")
+![Alt text](202306191508059.png "Pic")
 
 - **Play videos**: TubeArchivist is not just a video management tool, it is also a video player that can directly play your favorite videos.
 - **Track watched and unwatched videos**: TubeArchivist can keep track of the videos you have watched and the ones you haven't, helping you better manage your collection.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191509481.png "Pic")
+![Alt text](202306191509481.png "Pic")
 
 **Automatic download of Chinese subtitles**: TubeArchivist automatically downloads Chinese subtitles, removing language barriers from your learning experience.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535010.png "Pic")
+![Alt text](202306191535010.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535070.png "Pic")
+![Alt text](202306191535070.png "Pic")
 
 
 
@@ -82,11 +82,11 @@ Tutorial reference:
 
 Open the "docker" folder in File Station and create a folder named "TubeArchivist".
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191512612.png "Pic")
+![Alt text](202306191512612.png "Pic")
 
 ## 4. Create stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deploy the code
 
@@ -158,7 +158,7 @@ services:
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 ## 7. Usage
 
@@ -166,7 +166,7 @@ Access the program in your browser: [ip]:[port]
 
 > The IP is the IP of your NAS (mine is 172.16.23.149), and the port is defined in the configuration file above. If you follow my tutorial, it is 18001.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191524410.png "Pic")
+![Alt text](202306191524410.png "Pic")
 
 The account and password are set in the compose file.
 
@@ -180,7 +180,7 @@ Password: verysecret
 
 **Set download size**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191527815.png "Pic")
+![Alt text](202306191527815.png "Pic")
 
 I set a relatively small quality:
 
@@ -198,7 +198,7 @@ zh-CN
 
 Most YouTube videos are high-quality foreign language resources, and YouTube also provides voiceover and translation subtitle functions. This step is to set up this process.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191530402.png "Pic")
+![Alt text](202306191530402.png "Pic")
 
 Subtitles download setting: Set the subtitle language
 
@@ -218,7 +218,7 @@ Index and make subtitles searchable: This feature is very powerful as it allows 
 enable
 ```
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191532814.png "Pic")
+![Alt text](202306191532814.png "Pic")
 
 
 
@@ -226,29 +226,29 @@ enable
 
 downloads 下载：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191546349.png "Pic")
+![Alt text](202306191546349.png "Pic")
 
 
 
 Start downloading:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191547537.png "Pic")
+![Alt text](202306191547537.png "Pic")
 
 
 
 Download complete:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191548424.png "Pic")
+![Alt text](202306191548424.png "Pic")
 
 Play online:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191549205.png "Pic")
+![Alt text](202306191549205.png "Pic")
 
 
 
 > Since the online player does not support subtitles, if you want to view subtitles, you can use other players. If you have Emby, Jellyfin, or Plex, they can be automatically linked.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191550573.png "Pic")
+![Alt text](202306191550573.png "Pic")
 
 ## Browser Extension (optional)
 
@@ -262,19 +262,19 @@ TubeArchivist Companion
 
 **Get the key** 
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191552629.png "Pic")
+![Alt text](202306191552629.png "Pic")
 
 
 
 **Configure the extension**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191552826.png "Pic")
+![Alt text](202306191552826.png "Pic")
 
 
 
 **Use the extension**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191553113.png "Pic")
+![Alt text](202306191553113.png "Pic")
 
 
 

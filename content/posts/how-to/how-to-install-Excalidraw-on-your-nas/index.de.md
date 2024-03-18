@@ -11,7 +11,7 @@ toc: true
 
 Streiten Sie sich oft mit Ihrer Freundin über Text- und Sprachnachrichten auf WeChat über bestimmte Probleme?
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291425520.gif "Bild")
+![Alt-Text](202305291425520.gif "Bild")
 
 Durch den Bildschirm und den Austausch von Informationen über Text ist es unvermeidlich, dass es verschiedene "Missverständnisse" beim Verstehen gibt.
 
@@ -20,7 +20,7 @@ Die Konsequenzen sind:
 - 😒 Kleinere können dazu führen, dass die Freundin geht.
 - 😫 Größere können zur Trennung einer Ehe führen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291422135.png "Bild")
+![Alt-Text](202305291422135.png "Bild")
 
 Was sollten Sie also tun?
 
@@ -38,7 +38,7 @@ Hier ist ein Beispiel, wie ich eine unerwartete Situation mit meiner Freundin Zh
 
 Während des gesamten Prozesses, ohne Worte zu benötigen, können Sie verstehen, was passiert ist und das Kommunikationsproblem perfekt lösen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291435555.png "Bild")
+![Alt-Text](202305291435555.png "Bild")
 
 ---
 
@@ -89,7 +89,7 @@ services:
 3. Geben Sie den obigen Code in den Editor ein.
 4. Klicken Sie auf "Bereitstellen".
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291442842.png "Bild")
+![Alt-Text](202305291442842.png "Bild")
 
 ## 5. Erfolg
 
@@ -101,22 +101,22 @@ services:
 2. Zeichnen Sie frei.
 3. Exportieren Sie (png, svg).
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291454803.png "Bild")
+![Alt-Text](202305291454803.png "Bild")
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291454150.png "Bild")
+![Alt-Text](202305291454150.png "Bild")
 
 ## 7. Material hinzufügen
 
 Excalidraw verfügt über eine große Anzahl von Benutzermaterialien, die Sie frei hinzufügen können, und sie gehören Ihnen.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291455876.png "Bild")
+![Alt-Text](202305291455876.png "Bild")
 
 Wie man hinzufügt:
 
 1. Klicken Sie auf "Material durchsuchen".
 2. Fügen Sie Ihre Lieblingsmaterialien hinzu.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202305291455833.png "Bild")
+![Alt-Text](202305291455833.png "Bild")
 
 ## Abschließend
 

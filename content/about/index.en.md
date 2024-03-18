@@ -64,4 +64,4 @@ In addition, you can also contact me through the following ways:
 - Email: [dreammis@outlook.com](mailto:dreammis@outlook.com)
 - Twitter: [@dreammis](https://twitter.com/dreammis)
 - WeChat
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306291407428.png "wechat-mp")
+![Alt text](./202306291407428.png "wechat-mp")

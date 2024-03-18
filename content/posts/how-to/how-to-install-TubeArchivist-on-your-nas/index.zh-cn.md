@@ -19,7 +19,7 @@ toc: true
 
 今天，我就来介绍用Nas来自建TubeArchivist，帮助你，整理、搜索，离线观看你的油管视频
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191504270.png "Pic")
+![Alt text](202306191504270.png "Pic")
 
 
 
@@ -35,29 +35,29 @@ TubeArchivist 是一款能够让你订阅你最喜欢的YouTube频道，下载�
 
 - **订阅你最喜欢的YouTube频道（自动下载）**：只需输入频道的URL，TubeArchivist就会自动订阅这个频道并开始下载其视频。
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191507114.png "Pic")
+![Alt text](202306191507114.png "Pic")
 
 - **下载视频**：TubeArchivist可以帮你下载你订阅的频道里的视频，这样你就可以离线观看了。
 - **强大的搜索功能**：TubeArchivist会将你的视频收藏使用YouTube的元数据进行索引，这样你就可以方便地通过web界面进行搜索和整理。
 
 **搜索标题**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508747.png "Pic")
+![Alt text](202306191508747.png "Pic")
 
 **视频内容搜索！**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191508059.png "Pic")
+![Alt text](202306191508059.png "Pic")
 
 - **播放视频**：TubeArchivist不仅仅是一个视频管理工具，它还是一个视频播放器，可以直接播放你的收藏视频。
 - **跟踪观看和未观看的视频**：TubeArchivist可以记录你观看过的视频和未观看的视频，帮助你更好地管理你的收藏。
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191509481.png "Pic")
+![Alt text](202306191509481.png "Pic")
 
 **自动下载中文字幕**：TubeArchivist自动下载中文字幕，让你的学习不再受到语言的限制
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535010.png "Pic")
+![Alt text](202306191535010.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191535070.png "Pic")
+![Alt text](202306191535070.png "Pic")
 
 
 
@@ -84,13 +84,13 @@ TubeArchivist是一个强大的工具，可以让你更好地管理和享受你�
 
 File Station 打开docker 文件夹，创建`TubeArchivist`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191512612.png "Pic")
+![Alt text](202306191512612.png "Pic")
 
 
 
 ## 4. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5.  部署代码
 
@@ -162,7 +162,7 @@ services:
 
 ## 6. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -172,7 +172,7 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.149），端口为上面配置文件定义，如果你按照我的教程，则是18001
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191524410.png "Pic")
+![Alt text](202306191524410.png "Pic")
 
 账号密码为compose文件设置
 
@@ -186,7 +186,7 @@ services:
 
 **设置下载大小**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191527815.png "Pic")
+![Alt text](202306191527815.png "Pic")
 
 
 
@@ -206,7 +206,7 @@ zh-CN
 
 油管大多为优质的外语资源，油管也贴心的做了，声译，和翻译字幕的功能，这一步则是设置这个过程
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191530402.png "Pic")
+![Alt text](202306191530402.png "Pic")
 
 
 
@@ -228,7 +228,7 @@ Index and make subtitles searchable: 设置是否全文搜索到字幕，这个�
 enable
 ```
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191532814.png "Pic")
+![Alt text](202306191532814.png "Pic")
 
 
 
@@ -236,29 +236,29 @@ enable
 
 downloads 下载：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191546349.png "Pic")
+![Alt text](202306191546349.png "Pic")
 
 
 
 开始下载：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191547537.png "Pic")
+![Alt text](202306191547537.png "Pic")
 
 
 
 下载完成：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191548424.png "Pic")
+![Alt text](202306191548424.png "Pic")
 
 在线播放：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191549205.png "Pic")
+![Alt text](202306191549205.png "Pic")
 
 
 
 > 由于在线播放器并不支持字幕，如果想要看字幕，可以通过其他播放器，如果你有emby，jellyfin，plex可以自动联动
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191550573.png "Pic")
+![Alt text](202306191550573.png "Pic")
 
 ## 浏览器插件（可选）
 
@@ -272,19 +272,19 @@ TubeArchivist Companion
 
 **获取key** 
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191552629.png "Pic")
+![Alt text](202306191552629.png "Pic")
 
 
 
 **配置插件**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191552826.png "Pic")
+![Alt text](202306191552826.png "Pic")
 
 
 
 **使用插件**
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306191553113.png "Pic")
+![Alt text](202306191553113.png "Pic")
 
 
 

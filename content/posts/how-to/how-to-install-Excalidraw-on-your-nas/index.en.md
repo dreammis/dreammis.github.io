@@ -11,7 +11,7 @@ toc: true
 
 Do you often find yourself arguing with your girlfriend through text and voice messages on WeChat over some issues?
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291425520.gif "Pic")
+![Alt text](202305291425520.gif "Pic")
 
 Through the screen and the exchange of information through text, it is inevitable that there will be various "misunderstandings" in understanding.
 
@@ -20,7 +20,7 @@ The consequences are:
 - 😒 Minor ones may lead to the girlfriend leaving.
 - 😫 Major ones may lead to the breakup of a marriage.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291422135.png "Pic")
+![Alt text](202305291422135.png "Pic")
 
 So what should you do?
 
@@ -38,7 +38,7 @@ Here is an example of how I resolved an unexpected situation with my girlfriend,
 
 Throughout the process, without the need for words, you can understand what happened, perfectly solving the communication problem.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291435555.png "Pic")
+![Alt text](202305291435555.png "Pic")
 
 ---
 
@@ -89,7 +89,7 @@ services:
 3. Enter the above code in the editor.
 4. Click "deploy."
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291442842.png "Pic")
+![Alt text](202305291442842.png "Pic")
 
 ## 5. Success
 
@@ -101,22 +101,22 @@ services:
 2. Draw freely.
 3. Export (png, svg).
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291454803.png "Pic")
+![Alt text](202305291454803.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291454150.png "Pic")
+![Alt text](202305291454150.png "Pic")
 
 ## 7. Adding Materials
 
 Excalidraw has a large number of user materials that you can freely add, and they are your own.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291455876.png "Pic")
+![Alt text](202305291455876.png "Pic")
 
 How to add:
 
 1. Click "Browse Materials."
 2. Add your favorite materials.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202305291455833.png "Pic")
+![Alt text](202305291455833.png "Pic")
 
 ## Finally
 

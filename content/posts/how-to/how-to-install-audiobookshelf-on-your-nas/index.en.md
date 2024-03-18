@@ -6,8 +6,8 @@ categories:
 draft: false
 toc: true
 description: Want to achieve an all-in-one family reading experience?This article teaches you in detail how to deploy an AudioBookshelf server on NAS to manage unlimited eBooks, audiobooks and podcasts, sync progress, listen and read across devices, an ultimate experience, step-by-step teaching, easy to understand!
-featuredImage: "https://img-nasdaddy.liuxingoo.cn/202306290221993.png"
-featuredImagePreview: "https://img-nasdaddy.liuxingoo.cn/202306290221993.png"
+featuredImage: "202306290221993.png"
+featuredImagePreview: "202306290221993.png"
 
 ---
 Want to achieve an all-in-one family reading experience?This article teaches you in detail how to deploy an AudioBookshelf server on NAS to manage unlimited eBooks, audiobooks and podcasts, sync progress, listen and read across devices, an ultimate experience, step-by-step teaching, easy to understand!
@@ -29,12 +29,12 @@ This is Audiobookshelf, a self-built audiobook and podcast server.
 
 
 
-![DemoLibrary](https://img-nasdaddy.liuxingoo.cn/202306290221993.png)
+![DemoLibrary](./202306290221993.png)
 
 
 And there are also iOS and Android phone clients ~
 
-![image-20230629015721119](https://img-nasdaddy.liuxingoo.cn/202306290157488.png)
+![image-20230629015721119](./202306290157488.png)
 
 
 
@@ -59,7 +59,7 @@ Audiobookshelf is not just an audiobook library, it's full of impressive feature
 
 These are all the features of Audiobookshelf, next we'll start building it.
 
-![image-20230629020002376](https://img-nasdaddy.liuxingoo.cn/202306290200781.png)
+![image-20230629020002376](./202306290200781.png)
 
 
 ---
@@ -92,7 +92,7 @@ In File Station, open the docker folder and create an 'audiobookshelf' folder.
    - config
    - metadata
 
-![image-20230629005551306](https://img-nasdaddy.liuxingoo.cn/202306290055363.png)
+![image-20230629005551306](./202306290055363.png)
 
 
 
@@ -135,40 +135,40 @@ Access the app via browser:[ip]:[端口]
 
 Set a password
 
-![image-20230629004229175](https://img-nasdaddy.liuxingoo.cn/202306290042298.png)
+![image-20230629004229175](./202306290042298.png)
 
 ## 8. Audiobooks/eBooks
 
 
 ### Set language to Chinese
 
-![image-20230629004449436](https://img-nasdaddy.liuxingoo.cn/202306290044513.png)
+![image-20230629004449436](./202306290044513.png)
 
 ### Set up media library
 
-![image-20230629004633451](https://img-nasdaddy.liuxingoo.cn/202306290046519.png)
+![image-20230629004633451](./202306290046519.png)
 
 
 
 ### Set up book or audiobook
 
 
-![image-20230629004757987](https://img-nasdaddy.liuxingoo.cn/202306290047056.png)
+![image-20230629004757987](./202306290047056.png)
 
 ### Set up podcast
 1. Media type: Podcast   
 2. Media library (Custom)
 3. Folder (audiobooks)
 
-![image-20230629004938177](https://img-nasdaddy.liuxingoo.cn/202306290049245.png)
+![image-20230629004938177](./202306290049245.png)
 
 
 
 ### Make the homepage look nice (Wooden bookcase theme)
 
-![image-20230629010529098](https://img-nasdaddy.liuxingoo.cn/202306290105170.png)
+![image-20230629010529098](./202306290105170.png)
 
-![image-20230629010547244](https://img-nasdaddy.liuxingoo.cn/202306290105460.png)
+![image-20230629010547244](./202306290105460.png)
 
 
 
@@ -176,19 +176,19 @@ Set a password
 
 Copy local resources to the audiobooks folder
 
-![image-20230629005950319](https://img-nasdaddy.liuxingoo.cn/202306290059370.png)
+![image-20230629005950319](./202306290059370.png)
 
 
 
 ### Upload local resources from web interface (Single upload) 
 
-![image-20230629010136250](https://img-nasdaddy.liuxingoo.cn/202306290101322.png)
+![image-20230629010136250](./202306290101322.png)
 
 ### Start scanning 
 
 Let the system match the rules for the books first
 
-![image-20230629010358667](https://img-nasdaddy.liuxingoo.cn/202306290103736.png)
+![image-20230629010358667](./202306290103736.png)
 
 
 ### Manual scanning
@@ -197,29 +197,29 @@ Since the naming is not standardized or the relevant books are not listed in Goo
 
 1. Choose a book, edit  
 
-![image-20230629010703916](https://img-nasdaddy.liuxingoo.cn/202306290107134.png)
+![image-20230629010703916](./202306290107134.png)
 
 2. In the match field, correcting the title will find the book information.
 
-![image-20230629010906410](https://img-nasdaddy.liuxingoo.cn/202306290109557.png)
+![image-20230629010906410](./202306290109557.png)
 
 3. Submit after confirming everything is correct.
 
-![image-20230629010943208](https://img-nasdaddy.liuxingoo.cn/202306290109255.png)
+![image-20230629010943208](./202306290109255.png)
 
-![image-20230629011217713](https://img-nasdaddy.liuxingoo.cn/202306290112772.png)
+![image-20230629011217713](./202306290112772.png)
 
 
 
 4. Still not perfect because the scanner we're using is `Google Books`, which does not fully support Chinese published books. My OCD levels up! Use the English name to search.
 
-![image-20230629011359764](https://img-nasdaddy.liuxingoo.cn/202306290113837.png)
+![image-20230629011359764](./202306290113837.png)
 
 Sure enough, the summaries are available.
 
 This makes me more comfortable.
 
-![image-20230629011448260](https://img-nasdaddy.liuxingoo.cn/202306290114353.png)
+![image-20230629011448260](./202306290114353.png)
 
 Although it looks like English, it does not affect me. I'm always trying to make my environment in English (to improve my English level).
 
@@ -231,33 +231,33 @@ I have always been a podcast lover and enjoy the reality and depth of podcasts.
 
 The search, automatic subscription and download functions of audiobooksshelf make me very fond of it. With it, I can replace my original podcast downloader podgrab.
 
-![image-20230629011906195](https://img-nasdaddy.liuxingoo.cn/202306290119307.png)
+![image-20230629011906195](./202306290119307.png)
 
 
 
 Without much ado, first we switch the media library, search for bloggers we like. 
 
-![image-20230629012044916](https://img-nasdaddy.liuxingoo.cn/202306290120018.png)
+![image-20230629012044916](./202306290120018.png)
 
 Submit, and you can check the box for auto download episodes if you want the episodes to be downloaded automatically.  
 
-![image-20230629012210097](https://img-nasdaddy.liuxingoo.cn/202306290122147.png)
+![image-20230629012210097](./202306290122147.png)
 
 Search for the episodes you want to listen to.
 
-![image-20230629012311314](https://img-nasdaddy.liuxingoo.cn/202306290123386.png)
+![image-20230629012311314](./202306290123386.png)
 
 
 Begin playback after the download is complete.
 
-![image-20230629012744333](https://img-nasdaddy.liuxingoo.cn/202306290127443.png)
+![image-20230629012744333](./202306290127443.png)
 
 
 > There may be download failures due to network issues.
 
 Since the resource library is iTunes, there are also many high-quality Chinese podcasts to choose from.   
 
-![image-20230629012914545](https://img-nasdaddy.liuxingoo.cn/202306290129616.png)
+![image-20230629012914545](./202306290129616.png)
 
 
 
@@ -265,23 +265,23 @@ Since the resource library is iTunes, there are also many high-quality Chinese p
 
 The official Android and iOS clients are available (on their own website), iOS requires joining TestFlight.
 
-![image-20230629014326366](https://img-nasdaddy.liuxingoo.cn/202306290143562.png)
+![image-20230629014326366](./202306290143562.png)
 
 
 
 Input the password and username, when you download, connect to your ip of nas server.
 
-![image-20230629014417787](https://img-nasdaddy.liuxingoo.cn/202306290144153.png)
+![image-20230629014417787](./202306290144153.png)
 
 
 
-![image-20230629014425440](https://img-nasdaddy.liuxingoo.cn/202306290144781.png)
+![image-20230629014425440](./202306290144781.png)
 
 
 
 PodCast
 
-![image-20230629014437850](https://img-nasdaddy.liuxingoo.cn/202306290144110.png)
+![image-20230629014437850](./202306290144110.png)
 
 
 
@@ -291,7 +291,7 @@ PodCast
 
 Finally, if you want to track your reading progress, the books you import should not be in mobi or awz3 format (Amazon's format).
 
-![image-20230629014650463](https://img-nasdaddy.liuxingoo.cn/202306290146518.png)
+![image-20230629014650463](./202306290146518.png)
 
 ## Finally
 

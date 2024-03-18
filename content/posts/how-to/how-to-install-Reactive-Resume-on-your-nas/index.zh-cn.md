@@ -13,19 +13,19 @@ toc: true
 
 相信许多打工人都有这样的经历，辛辛苦苦写完简历，却因为排版格式或者模板问题，被HR直接PASS
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141253235.gif "Pic")
+![Alt text](202306141253235.gif "Pic")
 
 那么如何创建一份专业且吸引人的简历呢？
 
 今天这个教程，我就来帮你搭建一个属于你自己，帮助你轻松创建、更新和分享简历的服务：Reactive-Resume
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141252179.png "Pic")
+![Alt text](202306141252179.png "Pic")
 
 为什么我们需要自己搭建一个简历生成器呢？有两个主要原因：
 
 - 它可以满足你对个性化简历的需求，你可以随心所欲地调整布局，选择颜色和模板，甚至可以创建暗黑模式的简历；
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141254504.png "Pic")
+![Alt text](202306141254504.png "Pic")
 
 - 没有广告，不进行用户跟踪，最大程度地保证了你的数据的完整性和隐私
 
@@ -59,11 +59,11 @@ Reactive-Resume是一个十分强大且用户友好的工具，让创建、更�
 
 File Station 打开docker 文件夹，创建`resume_data`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141256268.png "Pic")
+![Alt text](202306141256268.png "Pic")
 
 ## 4. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5.  部署
 
@@ -128,11 +128,11 @@ services:
 
 > 注意PUBLIC_URL PUBLIC_SERVER_URL 需要换成你的内网地址如：192.168.1.32:13000，或者域名（公网）
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141300579.png "Pic")
+![Alt text](202306141300579.png "Pic")
 
 ## 6. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -142,13 +142,13 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.106），端口为上面配置文件定义，如果你按照我的教程，则是13000
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141307218.png "Pic")
+![Alt text](202306141307218.png "Pic")
 
 ## 8. 注册
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141302503.png "Pic")
+![Alt text](202306141302503.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141302865.png "Pic")
+![Alt text](202306141302865.png "Pic")
 
 
 
@@ -159,7 +159,7 @@ services:
 1. 从json导入
 2. 新建
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141308151.png "Pic")
+![Alt text](202306141308151.png "Pic")
 
 
 
@@ -167,25 +167,25 @@ services:
 
 ### 随意编辑，更改模块名称：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141311943.png "Pic")
+![Alt text](202306141311943.png "Pic")
 
 
 
 ### 导出与分享
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141310799.png "Pic")
+![Alt text](202306141310799.png "Pic")
 
 
 
 ### 更改布局，与diy
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141311553.png "Pic")
+![Alt text](202306141311553.png "Pic")
 
 #### 
 
 ###  多种模板可选
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141313755.png "Pic")
+![Alt text](202306141313755.png "Pic")
 
 
 

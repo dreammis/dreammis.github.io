@@ -13,19 +13,19 @@ A resume plays a crucial role in job hunting, applying for schools, or showcasin
 
 Many working individuals may have experienced the frustration of working hard on a resume, only to be rejected by HR due to formatting or template issues.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141253235.gif "Pic")
+![Alt text](202306141253235.gif "Pic")
 
 So, how can you create a professional and appealing resume?
 
 In today's tutorial, I will help you build a service that allows you to easily create, update, and share your resume: Reactive-Resume.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141252179.png "Pic")
+![Alt text](202306141252179.png "Pic")
 
 Why do we need to build our own resume generator? There are two main reasons:
 
 - It can meet your personalized resume needs, allowing you to freely adjust layouts, choose colors and templates, and even create resumes with dark mode.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141254504.png "Pic")
+![Alt text](202306141254504.png "Pic")
 
 - No ads, no user tracking, ensuring the integrity and privacy of your data to the greatest extent.
 
@@ -59,11 +59,11 @@ Tutorial reference:
 
 Open File Station and create a `resume_data` folder in the Docker folder.
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141256268.png "Pic")
+![Alt text](202306141256268.png "Pic")
 
 ## 4. Create Stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5. Deployment
 
@@ -130,11 +130,11 @@ services:
 
 > Note: Replace PUBLIC_URL and PUBLIC_SERVER_URL with your internal IP address, such as 192.168.1.32:13000, or domain name (public)
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141300579.png "Pic")
+![Alt text](202306141300579.png "Pic")
 
 ## 6. Success
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 ## 7. Usage
 
@@ -142,13 +142,13 @@ Open the program in your browser: [ip]:[port]
 
 > Replace ip with the IP address of your NAS (in this case, mine is 172.16.23.106), and port with the one defined in the configuration file (if you followed my tutorial, it would be 13000)
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141307218.png "Pic")
+![Alt text](202306141307218.png "Pic")
 
 ## 8. Register
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141302503.png "Pic")
+![Alt text](202306141302503.png "Pic")
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141302865.png "Pic")
+![Alt text](202306141302865.png "Pic")
 
 ## 9. Create Resume
 
@@ -157,25 +157,25 @@ Two ways:
 1. Import from JSON
 2. Create new
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141308151.png "Pic")
+![Alt text](202306141308151.png "Pic")
 
 ## 10. Edit Resume
 
 ### Edit freely, change module names:
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141311943.png "Pic")
+![Alt text](202306141311943.png "Pic")
 
 ### Export and Share
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141310799.png "Pic")
+![Alt text](202306141310799.png "Pic")
 
 ### Change layout and DIY
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141311553.png "Pic")
+![Alt text](202306141311553.png "Pic")
 
 ### Multiple templates to choose from
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306141313755.png "Pic")
+![Alt text](202306141313755.png "Pic")
 
 ## Finally
 

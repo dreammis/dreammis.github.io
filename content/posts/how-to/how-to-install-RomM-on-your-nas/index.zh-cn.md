@@ -61,7 +61,7 @@ RomM的特点和功能非常强大：
 
 File Station 打开docker 文件夹，创建`romm`文件夹
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345210.png "Pic")
+![Alt text](./202306262345210.png "Pic")
 
 
 
@@ -72,20 +72,20 @@ File Station 打开docker 文件夹，创建`romm`文件夹
 
 作者给出了支持的两种`目录结构`，我这里选择的是`第一种`：
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345528.png "Pic")
+![Alt text](./202306262345528.png "Pic")
 
 ## 4. 创建IGDB账号
 
 1. 注册 [Twitch](https://dev.twitch.tv/login) 
 2. 开启两步验证，这里可以用google 的Authenticator [enabled](https://www.twitch.tv/settings/security)
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345720.png "Pic")
+![Alt text](./202306262345720.png "Pic")
 
 1. 在这个页面注册Twitch的应用 [Twitch Developer Portal](https://dev.twitch.tv/console/apps/create)
 2. 创建密钥
 3. 复制客户端id与密钥key
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262345436.png "Pic")
+![Alt text](./202306262345436.png "Pic")
 
 
 
@@ -93,7 +93,7 @@ File Station 打开docker 文件夹，创建`romm`文件夹
 
 ## 5. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 6.  部署代码
 
@@ -125,7 +125,7 @@ services:
 
 ## 7. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 
@@ -135,25 +135,25 @@ services:
 
 > ip为你nas所在ip（这里我的是172.16.23.106），端口为上面配置文件定义，如果你按照我的教程，则是13280
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346663.png "Pic")
+![Alt text](./202306262346663.png "Pic")
 
 ## 9. 放入Rom
 
 将rom文件放入刚才设定好的目录，按照格式放入
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346631.png "Pic")
+![Alt text](./202306262346631.png "Pic")
 
 
 
 ## 10. 开始扫描
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262346339.png "Pic")
+![Alt text](./202306262346339.png "Pic")
 
 
 
 如果文件名规范，那么可直接扫描出封面与介绍
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347274.png "Pic")
+![Alt text](./202306262347274.png "Pic")
 
 
 
@@ -163,13 +163,13 @@ services:
 
 选择某个rom
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347280.png "Pic")
+![Alt text](./202306262347280.png "Pic")
 
 
 
 搜索出之后，可以勾选Rename Rom,一并修改文件名
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347425.png "Pic")
+![Alt text](./202306262347425.png "Pic")
 
 
 
@@ -179,7 +179,7 @@ services:
 
 选择多个文件，dlc，一并下载
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/202306262347828.png "Pic")
+![Alt text](./202306262347828.png "Pic")
 
 
 

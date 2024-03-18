@@ -98,7 +98,7 @@ File Station 打开docker 文件夹，创建`linkding`文件夹
 
 ## 4. 创建stack
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061552130.png "Pic")
+![Alt text](202306061552130.png "Pic")
 
 ## 5.  部署代码
 
@@ -126,7 +126,7 @@ services:
 
 ## 6. 成功
 
-![Alt text](https://img-nasdaddy.liuxingoo.cn/img/202306061556495.png "Pic")
+![Alt text](202306061556495.png "Pic")
 
 
 

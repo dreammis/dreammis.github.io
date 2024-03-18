@@ -12,7 +12,7 @@ lightgallery: true
 
 Es gibt unzählige Notiz-Apps, wie Apple Notes, Evernote, Obsidian, Notion... sogar WeChats Dateiübertragungsassistent.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060920807.png "Bild")
+![Alt-Text](202306060920807.png "Bild")
 
 Sie alle haben ihre eigenen Vor- und Nachteile:
 
@@ -33,28 +33,28 @@ Der heutige Protagonist ist `Flatnotes`, eine einfache, fokussierte, privat geho
 
   Es bietet sowohl den Modus für die Bearbeitung von Roh-Markdown als auch den WYSIWYG (What You See Is What You Get)-Markdown-Bearbeitungsmodus.
 
-  ![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060923631.png "Bild")
+  ![Alt-Text](202306060923631.png "Bild")
 
 
   ### 2. Erweiterte Suche
 
   Mit der `erweiterten Suchfunktion` von Flatnotes können Sie Ihre Notizen leicht finden, ohne manuell durch eine große Anzahl von Notizen suchen zu müssen.
 
-  ![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060924617.png "Bild")
+  ![Alt-Text](202306060924617.png "Bild")
 
   ### 3. Benutzerdefinierte Tags
 
   Mit der Tagging-Funktion können Sie Ihre Notizen besser organisieren und kategorisieren. Fügen Sie einfach einen oder mehrere `Tags` hinzu, um bestimmte Notizen leicht zu finden.
 
-  ![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060929248.png "Bild")
+  ![Alt-Text](202306060929248.png "Bild")
 
-  ![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060929310.png "Bild")
+  ![Alt-Text](202306060929310.png "Bild")
 
   ### 4. Helle/Dunkle Themes
 
   Flatnotes bietet sowohl `helle als auch dunkle Themes`, um Ihren Vorlieben gerecht zu werden und Ihre Augen auch nach langfristiger Nutzung zu schonen.
 
-  ![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060930206.png "Bild")
+  ![Alt-Text](202306060930206.png "Bild")
 
 ---
 
@@ -73,7 +73,7 @@ Tutorial-Referenz:
 
 Öffnen Sie die File Station und erstellen Sie einen Ordner `flatnotes` im Docker-Ordner.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060936127.png "Bild")
+![Alt-Text](202306060936127.png "Bild")
 
 ## 3. Stack erstellen
 
@@ -119,11 +119,11 @@ services:
 
 > Die IP-Adresse für Ihr NAS ist die IP-Adresse, an der sich Ihr NAS befindet (in diesem Fall ist meine 172.16.23.106), und der Port wird in der obigen Konfigurationsdatei definiert. Wenn Sie meinem Tutorial gefolgt sind, wäre es 13326.
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060944832.png "Bild")
+![Alt-Text](202306060944832.png "Bild")
 
 ## 7. Viel Spaß
 
-![Alt-Text](https://img-nasdaddy.liuxingoo.cn/img/202306060944583.png "Bild")
+![Alt-Text](202306060944583.png "Bild")
 
 ## Abschließend
 
