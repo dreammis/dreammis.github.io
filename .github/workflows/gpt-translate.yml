@@ -19,4 +19,4 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
-          basePath: 'api.aicnn.cn/openai/v1'
+          basePath: 'ai.aicnn.cn/openai/v1'
