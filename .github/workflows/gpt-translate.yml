@@ -19,5 +19,4 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
-          model: "mixtral-8x7b-32768"
-          basePath: 'api.groq.com/openai/v1'
+          basePath: 'api.aicnn.cn/openai/v1'
