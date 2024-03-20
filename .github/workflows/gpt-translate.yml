@@ -20,3 +20,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           basePath: 'https://asia.neuroapi.host/v1'
+          model: 'gpt-3.5-turbo'
