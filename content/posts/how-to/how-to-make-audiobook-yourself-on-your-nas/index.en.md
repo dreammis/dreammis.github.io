@@ -1,5 +1,5 @@
 ---
-title: "Audiobook Library in NAS: The Complete Process from EPUB to Audiobook Turn Your E-books into Audiobooks"
+title: "Audiobook Library in NAS: The Complete Process from EPUB to Audiobook Turn Your E-books into Audiobooks (2024 updated: Free Unlimited Methods for Making Audiobooks)"
 date: 2023-07-01T09:33:40+08:00
 categories:
 - NAS Tutorials
@@ -138,6 +138,70 @@ The code is divided into three parts, pay attention to each part:
 --voice_name zh-CN-YunxiNeural: `Yunxi Neural voice`, yes, it's that voice used in movies that sounds terrible. There are also dozens of other voices with different emotions and tones, you can explore them yourself.
 
 --language ZhHans: Text language is Chinese.
+
+
+## 2024.3.31 update - docker run & unlimited epub make(free) 
+### 1. Use docker run
+I use compose because I personally like the clear format of compose, but some users have found that in some cases you have to type Y/N, so I added the docker run command.
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -e MS_TTS_REGION=eastus \
+  -e MS_TTS_KEY=323e6131234102934f19b133c4e9955 \
+  -v /volume1/docker/audiobookshelf/audiobooks/:/books \
+  ghcr.io/p0n1/epub_to_audiobook \
+  /books/卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub /books/卡尔·波普尔：历史决定论的贫困/ --voice_name zh-CN-YunxiNeural --language ZhHans
+
+```
+### 2. Use free tts server
+Use edge for free, unlimited text-to-speech.
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -v "/volume1/docker/audiobookshelf/audiobooks/:/app" \
+  ghcr.io/p0n1/epub_to_audiobook \
+  cc卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub audiobook_output --tts edge --language zh-CN --voice_name "zh-CN-YunxiNeural"
+
+```
+You can find it at [this site](https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4) to check the supported languages and audio codes.
+
+`Locale` is your region/country
+
+`ShortName` is the audio code
+
+`Gender` is the gender of the audio (choose your favorite, you don't need to pass it in).
+
+Just replace it 
+
+For example:
+```
+{
+    "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, KatjaNeural)",
+    "ShortName": "de-DE-KatjaNeural",
+    "Gender": "Female",
+    "Locale": "de-DE",
+    "SuggestedCodec": "audio-24khz-48kbitrate-mono-mp3",
+    "FriendlyName": "Microsoft Katja Online (Natural) - German (Germany)",
+    "Status": "GA",
+    "VoiceTag": {
+      "ContentCategories": [
+        "General"
+      ],
+      "VoicePersonalities": [
+        "Friendly",
+        "Positive"
+      ]
+    }
+  }
+```
+`German` de-DE
+
+`Sex` Female
+
+`ShortName` de-DE-KatjaNeural
+
 
 ## 6. Success
 

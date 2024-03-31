@@ -1,5 +1,5 @@
 ---
-title: "NAS中的有声图书馆：从EPUB到Audiobook的全流程 将你的电子书转化为有声书"
+title: "NAS中的有声图书馆：从EPUB到Audiobook的全流程 将你的电子书转化为有声书(2024 updated: 免费 无限制作有声书方法)"
 date: 2023-07-01T09:33:40+08:00
 categories:
 - Nas教程
@@ -124,6 +124,8 @@ services:
 3. edditor输入：上面代码
 4. 点击deploy
 
+
+
 ---
 
 ### 注意：
@@ -143,6 +145,72 @@ services:
 --voice_name zh-CN-YunxiNeural  ： `云舒语音`，没错，就是那个电影解说用烂的语音，其他还有十几种语音，不同情绪，音调，可自行探索
 
 --language ZhHans  ： 文本语言  中文
+
+
+## 2024.3.31 update - docker run 指令 & 无限免费的制作epub 有声书
+### 1. 使用 docker run
+使用compose是因为我个人比较喜欢compose清晰的格式， 但有网友发现某些情况下可能会出现要输入Y/N的情况，故加入docker run指令
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -e MS_TTS_REGION=eastus \
+  -e MS_TTS_KEY=323e6131234102934f19b133c4e9955 \
+  -v /volume1/docker/audiobookshelf/audiobooks/:/books \
+  ghcr.io/p0n1/epub_to_audiobook \
+  /books/卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub /books/卡尔·波普尔：历史决定论的贫困/ --voice_name zh-CN-YunxiNeural --language ZhHans
+
+```
+### 2. 使用 free tts server
+使用edge的可以实现免费，无限量的文字转语音
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -v "/volume1/docker/audiobookshelf/audiobooks/:/app" \
+  ghcr.io/p0n1/epub_to_audiobook \
+  cc卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub audiobook_output --tts edge --language zh-CN --voice_name "zh-CN-YunxiNeural"
+
+```
+你可以在[此网站](https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4)查询 支持的语言与音频code
+
+Locale 为你所在的地区/国家
+
+ShortName 为音频code
+
+Gender 为音频的性别（选择你喜欢的，并不需要传入）
+
+将其替换即可
+
+比如：
+```
+{
+    "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, KatjaNeural)",
+    "ShortName": "de-DE-KatjaNeural",
+    "Gender": "Female",
+    "Locale": "de-DE",
+    "SuggestedCodec": "audio-24khz-48kbitrate-mono-mp3",
+    "FriendlyName": "Microsoft Katja Online (Natural) - German (Germany)",
+    "Status": "GA",
+    "VoiceTag": {
+      "ContentCategories": [
+        "General"
+      ],
+      "VoicePersonalities": [
+        "Friendly",
+        "Positive"
+      ]
+    }
+  }
+```
+德语 de-DE
+
+性别 Female
+
+ShortName de-DE-KatjaNeural
+
+
+
 
 ## 6. 成功
 

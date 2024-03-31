@@ -1,5 +1,5 @@
 ---
-title: "Hörbuch-Bibliothek in NAS: Der vollständige Prozess von EPUB zu Hörbuch - Verwandeln Sie Ihre E-Books in Hörbücher"
+title: "Hörbuch-Bibliothek in NAS: Der vollständige Prozess von EPUB zu Hörbuch - Verwandeln Sie Ihre E-Books in Hörbücher (2024 updated: Kostenlose, unbegrenzte Methoden zur Herstellung von Hörbüchern)"
 date: 2023-07-01T09:33:40+08:00
 categories:
 - NAS Tutorials
@@ -138,6 +138,69 @@ Der Code ist in drei Teile unterteilt, achten Sie auf jeden Teil:
 --voice_name zh-CN-YunxiNeural: `Yunxi Neural-Stimme`, ja, das ist diese Stimme, die in Filmen verwendet wird und schrecklich klingt. Es gibt auch Dutzende andere Stimmen mit unterschiedlichen Emotionen und Tonlagen, die Sie selbst erkunden können.
 
 --language ZhHans: Der Text ist in chinesischer Sprache.
+
+## 2024.3.31 update - docker run & unlimited epub make(free) 
+### 1. Verwenden Sie docker run
+Ich verwende compose, weil ich persönlich das klare Format von compose mag, aber einige Benutzer haben festgestellt, dass man in manchen Fällen J/N eingeben muss, also habe ich den Befehl docker run hinzugefügt.
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -e MS_TTS_REGION=eastus \
+  -e MS_TTS_KEY=323e6131234102934f19b133c4e9955 \
+  -v /volume1/docker/audiobookshelf/audiobooks/:/books \
+  ghcr.io/p0n1/epub_to_audiobook \
+  /books/卡尔-波普尔：历史决定论的贫困/卡尔-波普尔：历史决定论的贫困.epub /books/卡尔-波普尔：历史决定论的贫困/ --voice_name zh-CN-YunxiNeural --language ZhHans
+
+```
+### 2. Verwenden Sie einen kostenlosen tts-Server
+Verwenden Sie edge für kostenlose, unbegrenzte Text-to-Speech.
+
+```
+docker run -d \
+  --name audiobook_maker \
+  -v "/volume1/docker/audiobookshelf/audiobooks/:/app" \
+  ghcr.io/p0n1/epub_to_audiobook \
+  cc卡尔-波普尔：历史决定论的贫困/卡尔-波普尔：历史决定论的贫困.epub audiobook_output --tts edge --language zh-CN --voice_name "zh-CN-YunxiNeural"
+
+```
+Die unterstützten Sprachen und Audiocodes können Sie auf [dieser Website] (https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4) nachlesen.
+
+Locale" ist Ihre Region/Ihr Land
+
+Kurzname" ist der Audiocode
+
+`Gender` ist das Geschlecht des Audios (wählen Sie Ihren Favoriten, Sie brauchen ihn nicht anzugeben).
+
+Ersetze es einfach 
+
+Zum Beispiel:
+```
+{
+    "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, KatjaNeural)",
+    "Kurzname": "de-DE-KatjaNeural",
+    "Geschlecht": "Weiblich",
+    "Gebietsschema": "de-DE",
+    "SuggestedCodec": "audio-24khz-48kbitrate-mono-mp3",
+    "FriendlyName": "Microsoft Katja Online (Natural) - Deutsch (Deutschland)",
+    "Status": "GA",
+    "VoiceTag": {
+      "ContentCategories": [
+        "General"
+      ],
+      "VoicePersonalities": [
+        "Freundlich",
+        "Positiv"
+      ]
+    }
+  }
+```
+`Deutsch` de-DE
+
+`Geschlecht` Weiblich
+
+`Kurzname` de-DE-KatjaNeural
+
 
 ## 6. Erfolg
 
