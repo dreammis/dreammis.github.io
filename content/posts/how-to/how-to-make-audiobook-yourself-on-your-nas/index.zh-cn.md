@@ -169,7 +169,7 @@ docker run -d \
   --name audiobook_maker \
   -v "/volume1/docker/audiobookshelf/audiobooks/:/app" \
   ghcr.io/p0n1/epub_to_audiobook \
-  cc卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub audiobook_output --tts edge --language zh-CN --voice_name "zh-CN-YunxiNeural"
+  卡尔·波普尔：历史决定论的贫困/卡尔·波普尔：历史决定论的贫困.epub audiobook_output --tts edge --language zh-CN --voice_name "zh-CN-YunxiNeural"
 
 ```
 你可以在[此网站](https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4)查询 支持的语言与音频code
