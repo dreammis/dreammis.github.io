@@ -1,6 +1,6 @@
 ---
 title: "Unverzichtbare Werkzeuge für Unternehmer: Verstehen Sie Ihre Kunden besser mit Formbricks - Eine Typeform-Alternative"
-date: 6. Mai 2024
+date: 2024-05-06T09:33:40+08:00
 categories:
 - NAS-Tutorials
 - Unternehmertum

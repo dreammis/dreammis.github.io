@@ -1,6 +1,6 @@
 ---
 title: "Essential Tools for Entrepreneurs: Understanding Your Customers Better with Formbricks - A Typeform Alternative"
-date: May 6, 2024
+date: 2024-05-06T09:33:40+08:00
 categories:
 - NAS Tutorials
 - Entrepreneurship
