@@ -69,13 +69,13 @@ Setup Steps:
 
 #### For Synology DSM 7.2 and above, you can directly use *Container Manager*
 
-![container-manager-1](\images\container-manager-1.png)
+![container-manager-1](images\container-manager-1.png)
 
 #### QNAP ContainerStation 
 
-![container-station-1](\images\container-station-1.png)
+![container-station-1](images\container-station-1.png)
 
-![container-station-2](\images\container-station-2.png)
+![container-station-2](images\container-station-2.png)
 
 #### Installing Portainer Yourself
 

@@ -72,13 +72,13 @@ Hoarder不仅仅是一个自托管的书签应用，它结合了AI技术，旨�
 
 #### 群晖 DSM 7.2版本以上可以直接使用 *Container Manager*
 
-![container-manager-1](\images\container-manager-1.png)
+![container-manager-1](images\container-manager-1.png)
 
 #### 威联通 ContainerStation 
 
-![container-station-1](\images\container-station-1.png)
+![container-station-1](images\container-station-1.png)
 
-![container-station-2](\images\container-station-2.png)
+![container-station-2](images\container-station-2.png)
 
 
 
