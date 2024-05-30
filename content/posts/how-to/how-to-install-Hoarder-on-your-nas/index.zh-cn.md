@@ -118,6 +118,8 @@ NEXTAUTH_URL=http://localhost:3000
 # 非必须，如果你没有或者不需要ai帮你分类，那么去掉下面两行
 OPENAI_BASE_URL=https://xxx.com/v1
 OPENAI_API_KEY=sk-xxxxx
+INFERENCE_LANG=chinese
+INFERENCE_TEXT_MODEL=gpt-3.5-turbo-0125
 ```
 
 特殊配置说明：
@@ -131,6 +133,10 @@ MEILI_MASTER_KEY：同上
 OPENAI_BASE_URL：配置你的ai节点
 
 OPENAI_API_KEY： 对应的密钥
+
+INFERENCE_LANG: 重要！ 关乎打tag的语言，如果你是中文设置Chinese，设置你需要的语言deutsch
+
+INFERENCE_TEXT_MODEL: 默认为gpt-3.5 足够了，打tag足矣，便宜实惠。感谢ai的快速发展
 
 众所周知，`openai你是上不去的`，所以我是使用oneapi这样的工具，搭建自己的openai节点，这篇教程不深入探讨，如果想要了解更多，可以和我沟通交流
 

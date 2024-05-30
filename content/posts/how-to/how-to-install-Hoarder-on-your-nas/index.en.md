@@ -112,6 +112,8 @@ NEXTAUTH_URL=http://localhost:3000
 # Optional, if you don't have or need AI to categorize for you, then remove the following two lines
 OPENAI_BASE_URL=https://xxx.com/v1
 OPENAI_API_KEY=sk-xxxxx
+INFERENCE_LANG=english
+INFERENCE_TEXT_MODEL=gpt-3.5-turbo-0125
 ```
 
 Special configuration explanation:
@@ -126,7 +128,10 @@ OPENAI_BASE_URL: Configure your AI node.
 
 OPENAI_API_KEY: Corresponding key.
 
-As we all know, `you can't access OpenAI`, so I use tools like OneAPI to build my own OpenAI node. This tutorial won't delve deeper, but if you want to learn more, feel free to communicate with me.
+INFERENCE_LANG: Important! It's about the language of the tag, if you are Chinese set Chinese, set the language you need Deutsch.
+
+INFERENCE_TEXT_MODEL: default is gpt-3.5 enough, enough to hit the tag, cheap and affordable. Thanks for the fast development of ai!
+
 
 ## 4. Container Manager 
 

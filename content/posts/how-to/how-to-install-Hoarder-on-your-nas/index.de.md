@@ -112,6 +112,8 @@ NEXTAUTH_URL=http://localhost:3000
 # Optional, wenn Sie keine KI zur Kategorisierung benötigen, entfernen Sie die folgenden zwei Zeilen
 OPENAI_BASE_URL=https://xxx.com/v1
 OPENAI_API_KEY=sk-xxxxx
+INFERENCE_LANG=deutsch
+INFERENCE_TEXT_MODEL=gpt-3.5-turbo-0125
 ```
 
 Besondere Konfigurationserklärung:
@@ -126,7 +128,10 @@ OPENAI_BASE_URL: Konfigurieren Sie Ihren KI-Knoten.
 
 OPENAI_API_KEY: Entsprechender Schlüssel.
 
-Wie wir alle wissen, `können Sie nicht auf OpenAI zugreifen`, also verwende ich Tools wie OneAPI, um meinen eigenen OpenAI-Knoten zu bauen. Dieses Tutorial wird nicht tiefer eintauchen, aber wenn Sie mehr erfahren möchten, können Sie gerne mit mir kommunizieren.
+INFERENCE_LANG: Wichtig! Es geht um die Sprache des Tags, wenn Sie Chinesisch sind, setzen Sie Chinesisch, setzen Sie die Sprache, die Sie brauchen Deutsch.
+
+INFERENCE_TEXT_MODEL: Standard ist gpt-3.5 genug, genug, um den Tag zu treffen, billig und erschwinglich. Vielen Dank für die schnelle Entwicklung von KI!
+
 
 ## 4. Container-Manager 
 
