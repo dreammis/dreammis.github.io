@@ -74,7 +74,7 @@ featuredImagePreview: "back_cover.png"
 
 ### 以终为始
 
-![thingking man](thingking man-1718103184287.png)
+![thingking man](thingking-man.png)
 
 在开始前我想问几个问题，不妨思考下。
 
