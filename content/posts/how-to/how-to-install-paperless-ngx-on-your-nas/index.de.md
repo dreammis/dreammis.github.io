@@ -156,10 +156,7 @@ services:
       POSTGRES_DB: paperless
       POSTGRES_USER: paperless
       POSTGRES_PASSWORD: paperless
-```
 
-
-```markdown
 webserver:
   image: paperlessngx/paperless-ngx:latest
   restart: unless-stopped
@@ -184,8 +181,8 @@ webserver:
     PAPERLESS_REDIS: redis://broker:6379
     PAPERLESS_DBHOST: db
     PAPERLESS_TIKA_ENABLED: 1
-    PAPERLESS_TIKA_GOTENBERG_ENDPOINT: http://gotenberg:9998
-    PAPERLESS_TIKA_ENDPOINT: http://tika:3009
+    PAPERLESS_TIKA_GOTENBERG_ENDPOINT: http://gotenberg:3000
+    PAPERLESS_TIKA_ENDPOINT: http://tika:9998
     PAPERLESS_OCR_LANGUAGES: chi-sim chi-tra  # ändere es, wenn du möchtest
     PAPERLESS_OCR_LANGUAGE: eng+chi_sim  # ändere es, wenn du möchtest
     USERMAP_UID: 0
