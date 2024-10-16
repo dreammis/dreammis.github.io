@@ -7,8 +7,8 @@ draft: false
 # url : /posts/xxx  # 指定url
 toc: true
 description: 一场自我阉割的独白
-featuredImage: "Climbers helping each other.jpg"
-featuredImagePreview: "Climbers helping each other.jpg"
+featuredImage: "Climbers-helping-each-other.jpg"
+featuredImagePreview: "Climbers-helping-each-other.jpg"
 ---
 # 36岁互联网人，公司没裁我，我把自己裁了
 
