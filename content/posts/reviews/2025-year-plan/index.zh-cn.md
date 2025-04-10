@@ -115,7 +115,6 @@ A：如果我们能明白我刚说的这句话`目标是一个方向，而不是
 
 依据目标的smart原则，我设定的目标是：**体重维持在65kg，身体拥有肌肉**
 
-![image-20250205100325167](https://s2.loli.net/2025/02/05/sLX4OFQCutR2NWk.png)
 <img src="fix (1).png" alt="Importance of Health" style="zoom:50%;" />
 
 
