@@ -116,10 +116,12 @@ A：如果我们能明白我刚说的这句话`目标是一个方向，而不是
 依据目标的smart原则，我设定的目标是：**体重维持在65kg，身体拥有肌肉**
 
 ![image-20250205100325167](https://s2.loli.net/2025/02/05/sLX4OFQCutR2NWk.png)
+<img src="fix (1).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 设定一个任务提醒，**每2天提醒我一次**，并且把具体的行动计划设置好
 
-![image-20250205100447651](https://s2.loli.net/2025/02/05/XdyGpDTVPAKf5MB.png)
+<img src="fix (12).png" alt="Importance of Health" style="zoom:50%;" />
 
 这里我设置了：
 
@@ -158,26 +160,30 @@ A：如果我们能明白我刚说的这句话`目标是一个方向，而不是
 - **每周最少3次（不可间断超过1天）**
 - **每个月一次情绪清理**
 
-![image-20250205100626585](https://s2.loli.net/2025/02/05/3WD7OIb8mgUrkBe.png)
+<img src="fix (11).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 这里有几个关键的行为：
 
 - 冥想，这个对我来说非常有用，但是我常常无法坚持，希望设定一个任务系统性的提醒我
 
-![image-20250205100846499](https://s2.loli.net/2025/02/05/iMtZFcngfK8Al1U.png)
+<img src="fix (4).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 - 每日感恩，则是在我的每日反思中，设定的，感恩我觉得是我们中国人比较少去做的事情，而**感恩**这件事情却可以给我带来极大的**精神慰藉**
 
   - 感恩可以让我**更珍惜现在的生活**，感谢现在拥有的一切，而**不只是盯着自己匮乏的部分**
   - 感恩可以让我**晚上休息的更好**
 
-  ![image-20250205101228512](https://s2.loli.net/2025/02/05/MguA5N1tLx6jsfK.png)
+<img src="fix (10).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 - 每个月使用**自己的课程《迈向真我》**来清理非必要的负面情绪
 
   我之前自媒体曾经创立了一门课程，可以帮助人快速清理负面情绪
 
-  ![img](https://s2.loli.net/2025/02/05/r52J6YT13BSw8qE.png)
+<img src="fix (9).png" alt="Importance of Health" style="zoom:50%;" />
+
 
   而我自己常常却很少用，哈哈哈哈。不知道是不是因为`外来和尚好念经`的缘故
 
@@ -219,15 +225,18 @@ A：一切都是数学问题，`概率问题`
 
 - CGS，继续当我的足球教练
 
-![image-20250205104110022](https://s2.loli.net/2025/02/05/N6yog32OfDjFewt.png)
+<img src="fix (3).png" alt="Importance of Health" style="zoom:50%;" />
 
-![3](https://s2.loli.net/2025/02/05/mpWrEAHTq31o5YZ.png)
+<img src="fix (8).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 - SYT 两性出海，前期3个月，出圈2个账号，并且有些账号已呈现IP化，接下来会矩阵化继续复制成功案例，扩大整个优势，深度做知识付费等
 
-  ![image-20250205104459312](https://s2.loli.net/2025/02/05/kd9cRl6LVTXfyeP.png)
+<img src="fix (2).png" alt="Importance of Health" style="zoom:50%;" />
 
-![image-20250205103946625](https://s2.loli.net/2025/02/05/hSELuKDZtqeGvMi.png)
+<img src="fix (1).png" alt="Importance of Health" style="zoom:50%;" />
+
+
 
 - **儒道佛出海**，做文创类输出海外华人（这里不阐述过多，有兴趣可以私聊）
 - **China Travel**，入境游，做海外自媒体，品牌营销
@@ -235,7 +244,8 @@ A：一切都是数学问题，`概率问题`
 - 心理个人成长自媒体，这个我说了许多次，断更2年了，希望2025年，能重新启动，周更或者月更
 - **Build in public**，希望把我的创业过程公开化，可以吸引更多同好之人，帮助更多的人，正如我这一篇所作的，可能在这个号，也可以新号启动
 
-![image-20250205104538338](https://s2.loli.net/2025/02/05/zRpjUxPrgbW3l6q.png)
+<img src="fix (7).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 
 
@@ -254,7 +264,8 @@ A：一切都是数学问题，`概率问题`
 - 成长方面，每个月和她一起看一部top250的电影、一起共读一本书
 - 每个月单独约会一次，不带孩子
 
-![image-20250205102122167](https://s2.loli.net/2025/02/05/QlTiwDfBxWmaSHL.png)
+<img src="fix (6).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 拿单独约会来说，为了保障任务能有序执行，提防紧急情况，我设置了每个月，**以周为单位查看**，月初第一周查看该任务
 
@@ -263,7 +274,9 @@ A：一切都是数学问题，`概率问题`
 
 这一切的一切都是为了尽可能的让自己设定的目标，和任务能顺利执行，而不是只是一个目标，这也是为什么**关注系统**才能实现你的目标
 
-![image-20250205102306551](https://s2.loli.net/2025/02/05/OZRL8BPclHKQbSW.png)
+
+<img src="fix (5).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 ### 成长
 
@@ -313,13 +326,16 @@ A：一切都是数学问题，`概率问题`
 
 - 每周至少与父母，亲人互动一次：不限于聊天，吃饭，关心起身体，心理，安全的需要
 
-![image-20250205105250000](https://s2.loli.net/2025/02/05/nO38dp7DzK1FELr.png)
+<img src="fix (4).png" alt="Importance of Health" style="zoom:50%;" />
+
 
 - 整理孩子们的书单，每天30m和他们玩，睡前陪他们读书
 
-![image-20250205112642591](https://s2.loli.net/2025/02/05/9tRipkJo3xwgKmv.png)
+<img src="fix (3).png" alt="Importance of Health" style="zoom:50%;" />
 
-![image-20250205112659488](https://s2.loli.net/2025/02/05/yPfHDMeKcRWuBYa.png)
+<img src="640.webp" alt="Importance of Health" style="zoom:50%;" />
+
+
 
 ### 关系
 
@@ -343,7 +359,7 @@ A：一切都是数学问题，`概率问题`
 
 这两部分设定就是一个任务提醒即可，关键词是`主动`，你需要友谊，那么你就主动些，又有什么关系
 
-![image-20250205105554555](https://s2.loli.net/2025/02/05/HTfRx65tSvOPqyU.png)
+<img src="fix (2).png" alt="Importance of Health" style="zoom:50%;" />
 
 ## 结束
 
