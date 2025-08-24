@@ -1,6 +1,6 @@
 ---
 title: "有一种可能：效率高也许是一种弊端"
-date: 2025-08-24T15:27:00+08:00
+date: 2025-08-24T12:27:00+08:00
 categories:
 - Reviews
 draft: false
