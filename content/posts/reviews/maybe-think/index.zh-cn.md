@@ -80,7 +80,8 @@ featuredImagePreview: "cover_2025_08_24.png"
 
 就比如之前的玄学出海，短短不到20条视频，就有上w的粉丝，大量留资...
 
-
+<img src="251175af7f98a647513bc1f2a9f1dc6.jpg" alt="玄学出海1" style="zoom:67%; margin: auto;" />
+<img src="db197998754f0e656a5d827705f559f.jpg" alt="玄学出海2" style="zoom:67%; margin: auto;" />
 
 就在前两天我又给自己立了flag，要积极的**拥抱社交媒体**，与大众对话
 
