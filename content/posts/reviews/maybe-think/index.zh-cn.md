@@ -64,6 +64,7 @@ featuredImagePreview: "cover_2025_08_24.png"
 
 还有我开源的项目**social-auto-upload**，光技术群都快1000号人了，github也将近6k的star了
 
+<img src="20250824130855.png" alt="github social-auto-upload 开源" style="zoom:67%; margin: auto;" />
 
 
 昨天还和一个技术群的群友电话聊，说我放着这么好的项目，不去深耕，做深商业化...
