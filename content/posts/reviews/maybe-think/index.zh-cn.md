@@ -7,8 +7,8 @@ draft: false
 # url : /posts/xxx  # 指定url
 toc: true
 description: 有一种可能：效率高也许是一种弊端
-featuredImage: "cover_2025.08.24.jpg"
-featuredImagePreview: "cover_2025.08.24.jpg"
+featuredImage: "cover_2025_08_24.png"
+featuredImagePreview: "cover_2025_08_24.png"
 ---
 # 有一种可能：效率高也许是一种弊端
 
