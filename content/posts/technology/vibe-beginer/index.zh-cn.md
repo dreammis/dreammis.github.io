@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding真能取代程序员？中年程序员的Vibe Coding刚出新手村"
-date: 2025-09-05T15:27:00+08:00
+date: 2025-09-04T15:27:00+08:00
 categories:
 - 技术
 draft: false
