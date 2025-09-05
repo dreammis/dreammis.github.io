@@ -12,7 +12,7 @@ featuredImagePreview: "cover.jpg"
 ---
 # Vibe Coding真能取代程序员？中年程序员的Vibe Coding刚出新手村
 
-![head image](head.png)
+![head image](head.jpg)
 
 
 为什么写这篇，因为我最近在**学习vibe coding**，看到有价值的东西，就想着发个短文分享下，下半部分是我对于当前学习vibe coding的一些思考
