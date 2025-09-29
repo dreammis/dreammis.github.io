@@ -14,7 +14,7 @@ featuredImagePreview: "cover.png"
 
 首先我可**不是标题党**，我真的做了520个视频，而且现在还在源源不断的产出，我找出一些做了个**集锦**
 
-{{< bilibili id=BV1cqnvzqE7V autoplay=0 >}}
+{{< bilibili id=BV1cqnvzqEfc autoplay=0 >}}
 
 
 > 后面会放一个，大家也可以评判下如何，**虚心向大家学习**
