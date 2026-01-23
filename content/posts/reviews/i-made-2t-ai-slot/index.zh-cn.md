@@ -1,12 +1,12 @@
 ---
-title: "裸辞一年，我亲手删掉了2T的视频**: **我踩过的每一个坑"
+title: "裸辞一年，我亲手删掉了2T的视频**: 我踩过的每一个坑"
 date: 2026-01-23T18:00:49+08:00
 categories:
 - Reviews
 draft: false
 # url : /posts/xxx  # 指定url
 toc: true
-description: 裸辞一年，我亲手删掉了2T的视频**: *我踩过的每一个坑
+description: 裸辞一年，我亲手删掉了2T的视频: 我踩过的每一个坑
 featuredImage: "Prompt_cn__visual_style_202601231807.jpeg"
 featuredImagePreview: "Prompt_cn__visual_style_202601231807.jpeg"
 ---
