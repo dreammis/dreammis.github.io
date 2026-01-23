@@ -6,7 +6,7 @@ categories:
 draft: false
 # url : /posts/xxx  # 指定url
 toc: true
-description: 裸辞一年，我亲手删掉了2T的视频: 我踩过的每一个坑
+description: 裸辞一年，我亲手删掉了2T的视频:我踩过的每一个坑
 featuredImage: "Prompt_cn__visual_style_202601231807.jpeg"
 featuredImagePreview: "Prompt_cn__visual_style_202601231807.jpeg"
 ---
